@@ -1,0 +1,22 @@
+page-list {
+
+}
+
+.item-right {
+	position: absolute;
+	right: 30px;
+	z-index: 3;
+	transform: scale(3, 3);	
+}
+
+.levelProg {
+	margin-top: 20px;
+}
+
+.progressContainer {
+	width: 50%;
+	display: block;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}

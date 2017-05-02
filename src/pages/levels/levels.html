@@ -17,23 +17,23 @@
 <h1 class="subTitle">Current progress on subcategory: {{this.subcat}}</h1>
 
 <div class="subLevel"></div>
-<button class="button circle subGreen">
+<button class="button circle subGreen" (click)="enterLevel('1')">
 		<ion-icon class="subcatL" name="trophy"></ion-icon>
 		<h1>Level 1</h1>
 		<h3>2/3 Tasks</h3>
 </button>
 <hr class='dotted' />
 <br>
-<button class="button circle subYellow">
+<button class="button circle subYellow" (click)="enterLevel('2')">
 		<ion-icon class="subcatL" name="unlock"></ion-icon>
 		<h1>Level 2</h1>
-		<h3>2/3 Tasks</h3>
+		<h3>1/4 Tasks</h3>
 </button>
 <br>
-<button class="button circle subGrey">
+<button class="button circle subGrey" (click)="enterLevel('3')">
 		<ion-icon class="subcatL" name="lock"></ion-icon>
 		<h1>Level 3</h1>
-		<h3>2/3 Tasks</h3>
+		<h3>0/5 Tasks</h3>
 </button>
 
 </ion-content>
