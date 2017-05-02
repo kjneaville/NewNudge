@@ -1,0 +1,55 @@
+page-levels {
+
+}
+
+.circle {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    border-radius: 100%;
+    display: block;
+    margin: auto;
+	margin-top: 20px;
+}
+
+.subGrey {
+	background: grey;
+}
+
+.subGreen {
+	background: green;
+}
+
+.subYellow {
+	background: #B8860B;
+}
+
+.subcatL {
+    /*position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 50%;
+    transform: translate(-50%, -50%);*/
+    transform: scale(4, 4);
+    width: 10px;
+    height: 20px;
+    display: block;
+    margin: auto;
+}
+
+.subLevel {
+    content:"";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    border-left: 3px dotted #444; /*change these values to suit your liking*/
+}
+
+.subTitle {
+	background-color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: 3px solid #444;
+}

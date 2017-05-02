@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <title>Ionic App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="msapplication-tap-highlight" content="no">
+
+  <link rel="icon" type="image/x-icon" href="assets/icon/favicon.ico">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#4e8ef7">
+ 
+  <!-- cordova.js required for cordova apps -->
+  <script src="cordova.js"></script>
+
+  <!-- un-comment this code to enable service worker
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('service-worker.js')
+        .then(() => console.log('service worker installed'))
+        .catch(err => console.log('Error', err));
+    }
+  </script>-->
+
+  <link href="build/main.css" rel="stylesheet">
+
+</head>
+<body>
+
+  <!-- Ionic's root component and where the app will load -->
+  <ion-app></ion-app>
+
+  <!-- The polyfills js is generated during the build process -->
+  <script src="build/polyfills.js"></script>
+
+  <!-- The bundle js is generated during the build process -->
+  <script src="build/main.js"></script>
+  <script src="https://d3js.org/d3.v3.min.js"></script> 
+  <script type="text/javascript">
+    /**********************************************
+/* Example of how to use d3 to create scalable 
+/* SVG radial progress bars, controllable values 
+/* and colours are passed in via data attributes.
+************************************************/
+var wrapper = document.getElementById('progress');
+var wrapper2 = document.getElementById('progress2');
+var wrapper3 = document.getElementById('progress3');
+var wrapper4 = document.getElementById('progress4');
+var start = 0;
+
+var end = parseFloat(wrapper.dataset.percentage);
+var end2 = parseFloat(wrapper2.dataset.percentage);
+var end3 = parseFloat(wrapper3.dataset.percentage);
+var end4 = parseFloat(wrapper4.dataset.percentage);
+
+var colours = {
+  fill: '#' + wrapper.dataset.fillColour,
+  track: '#' + wrapper.dataset.trackColour,
+  text: '#' + wrapper.dataset.textColour,
+  stroke: '#' + wrapper.dataset.strokeColour,
+}
+
+var radius = 100;
+var border = wrapper.dataset.trackWidth;
+var strokeSpacing = wrapper.dataset.strokeSpacing;
+var endAngle = Math.PI * 2;
+var formatText = d3.format('.0%');
+var boxSize = radius * 2;
+var count = end;
+var count2 = end2;
+var count3 = end3;
+var count4 = end4;
+var progress = start;
+var progress2 = start;
+var progress3 = start;
+var progress4 = start;
+var step = end < start ? -0.01 : 0.01;
+var step2 = end2 < start ? -0.01 : 0.01;
+var step3 = end3 < start ? -0.01 : 0.01;
+var step4 = end4 < start ? -0.01 : 0.01;
+
+//Define the circle
+var circle = d3.svg.arc()
+  .startAngle(0)
+  .innerRadius(radius)
+  .outerRadius(radius - border);
+
+//setup SVG wrapper
+var svg = d3.select(wrapper)
+  .append('svg')
+  .attr('width', boxSize)
+  .attr('height', boxSize);
+
+var svg2 = d3.select(wrapper2)
+  .append('svg')
+  .attr('width', boxSize)
+  .attr('height', boxSize);
+
+var svg3 = d3.select(wrapper3)
+  .append('svg')
+  .attr('width', boxSize)
+  .attr('height', boxSize);
+
+var svg4 = d3.select(wrapper4)
+  .append('svg')
+  .attr('width', boxSize)
+  .attr('height', boxSize);
+
+
+
+// ADD Group container
+var g = svg.append('g')
+  .attr('transform', 'translate(' + boxSize / 2 + ',' + boxSize / 2 + ')');
+
+var g2 = svg2.append('g')
+  .attr('transform', 'translate(' + boxSize / 2 + ',' + boxSize / 2 + ')');
+
+var g3 = svg3.append('g')
+  .attr('transform', 'translate(' + boxSize / 2 + ',' + boxSize / 2 + ')');
+
+var g4 = svg4.append('g')
+  .attr('transform', 'translate(' + boxSize / 2 + ',' + boxSize / 2 + ')');
+
+//Setup track
+var track = g.append('g').attr('class', 'radial-progress');
+track.append('path')
+  .attr('class', 'radial-progress__background')
+  .attr('fill', colours.track)
+  .attr('stroke', colours.stroke)
+  .attr('stroke-width', strokeSpacing + 'px')
+  .attr('d', circle.endAngle(endAngle));
+
+var track2 = g2.append('g').attr('class', 'radial-progress');
+track2.append('path')
+  .attr('class', 'radial-progress__background')
+  .attr('fill', colours.track)
+  .attr('stroke', colours.stroke)
+  .attr('stroke-width', strokeSpacing + 'px')
+  .attr('d', circle.endAngle(endAngle));
+
+var track3 = g3.append('g').attr('class', 'radial-progress');
+track3.append('path')
+  .attr('class', 'radial-progress__background')
+  .attr('fill', colours.track)
+  .attr('stroke', colours.stroke)
+  .attr('stroke-width', strokeSpacing + 'px')
+  .attr('d', circle.endAngle(endAngle));
+
+var track4 = g4.append('g').attr('class', 'radial-progress');
+track4.append('path')
+  .attr('class', 'radial-progress__background')
+  .attr('fill', colours.track)
+  .attr('stroke', colours.stroke)
+  .attr('stroke-width', strokeSpacing + 'px')
+  .attr('d', circle.endAngle(endAngle));
+
+//Add colour fill
+var value = track.append('path')
+  .attr('class', 'radial-progress__value')
+  .attr('fill', colours.fill)
+  .attr('stroke', colours.stroke)
+  .attr('stroke-width', strokeSpacing + 'px');
+
+var value2 = track2.append('path')
+  .attr('class', 'radial-progress__value')
+  .attr('fill', colours.fill)
+  .attr('stroke', colours.stroke)
+  .attr('stroke-width', strokeSpacing + 'px');
+
+var value3 = track3.append('path')
+  .attr('class', 'radial-progress__value')
+  .attr('fill', colours.fill)
+  .attr('stroke', colours.stroke)
+  .attr('stroke-width', strokeSpacing + 'px');
+
+var value4 = track4.append('path')
+  .attr('class', 'radial-progress__value')
+  .attr('fill', colours.fill)
+  .attr('stroke', colours.stroke)
+  .attr('stroke-width', strokeSpacing + 'px');
+
+//Add text value
+var numberText = track.append('text')
+  .attr('class', 'radial-progress__text')
+  .attr('fill', colours.text)
+  .attr('text-anchor', 'middle')
+  .attr('dy', '.5rem');
+
+var numberText2 = track2.append('text')
+  .attr('class', 'radial-progress__text')
+  .attr('fill', colours.text)
+  .attr('text-anchor', 'middle')
+  .attr('dy', '.5rem');
+
+var numberText3 = track3.append('text')
+  .attr('class', 'radial-progress__text')
+  .attr('fill', colours.text)
+  .attr('text-anchor', 'middle')
+  .attr('dy', '.5rem');
+
+var numberText4 = track4.append('text')
+  .attr('class', 'radial-progress__text')
+  .attr('fill', colours.text)
+  .attr('text-anchor', 'middle')
+  .attr('dy', '.5rem');
+
+function update(progress, progress2, progress3, progress4) {
+  //update position of endAngle
+  value.attr('d', circle.endAngle(endAngle * progress));
+  value2.attr('d', circle.endAngle(endAngle * progress2));
+  value3.attr('d', circle.endAngle(endAngle * progress3));
+  value4.attr('d', circle.endAngle(endAngle * progress4));
+  //update text value
+  numberText.text(formatText(progress));
+  numberText2.text(formatText(progress2));
+  numberText3.text(formatText(progress3));
+  numberText4.text(formatText(progress4));
+} 
+
+(function iterate() {
+  //call update to begin animation
+  update(progress, progress2, progress3, progress4);
+  if (count > 0) {
+    //reduce count till it reaches 0
+    count--;
+    //increase progress
+    progress += step;
+    //Control the speed of the fill
+    setTimeout(iterate, 300);
+  }
+  if (count2 > 0) {
+    //reduce count till it reaches 0
+    count2--;
+    //increase progress
+    progress2 += step2;
+    //Control the speed of the fill
+    setTimeout(iterate, 300);
+  }
+  if (count3 > 0) {
+    //reduce count till it reaches 0
+    count3--;
+    //increase progress
+    progress3 += step3;
+    //Control the speed of the fill
+    setTimeout(iterate, 300);
+  }
+  if (count4 > 0) {
+    //reduce count till it reaches 0
+    count4--;
+    //increase progress
+    progress4 += step4 ;
+    //Control the speed of the fill
+    setTimeout(iterate, 300);
+  }
+})();
+
+  </script>
+
+</body>
+</html>

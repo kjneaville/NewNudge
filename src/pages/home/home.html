@@ -1,0 +1,72 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Home
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+<div align="center">
+	<select id="catSelect">
+		  <option value="financial">Financial</option>
+		  <option value="medical">Medical</option>
+		  <option value="household">Household</option>
+		  <option value="automobile">Automobile</option>
+	</select>
+</div>
+<ion-grid>
+  <ion-row>
+    <ion-col col-6 (click)="enterCategory('Budget')">
+		<div id="progress" 
+		     data-percentage="99" 
+		     data-track-width="30" 
+		     data-track-colour="555555" 
+		     data-fill-colour="00C0FF" 
+		     data-text-colour="00C0FF" 
+		     data-stroke-colour="FFFFFF" 
+		     data-stroke-spacing="4"> 
+		</div>
+		<h3>Budget</h3>
+	</ion-col>
+    <ion-col col-6 (click)="enterCategory('Savings')">
+		<div id="progress2" 
+		     data-percentage="67" 
+		     data-track-width="12" 
+		     data-track-colour="555555" 
+		     data-fill-colour="00C0FF" 
+		     data-text-colour="00C0FF" 
+		     data-stroke-colour="FFFFFF" 
+		     data-stroke-spacing="4"> 
+		</div>
+		<h3>Savings</h3>
+	</ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col col-6 (click)="enterCategory('Retirement')">
+		<div id="progress3" 
+		     data-percentage="12" 
+		     data-track-width="12" 
+		     data-track-colour="555555" 
+		     data-fill-colour="00C0FF" 
+		     data-text-colour="00C0FF" 
+		     data-stroke-colour="FFFFFF" 
+		     data-stroke-spacing="4"> 
+		</div>
+		<h3>Retirement</h3>
+	</ion-col>
+    <ion-col col-6 (click)="enterCategory('Credit')">
+		<div id="progress4" 
+		     data-percentage="50" 
+		     data-track-width="12" 
+		     data-track-colour="555555" 
+		     data-fill-colour="00C0FF" 
+		     data-text-colour="00C0FF" 
+		     data-stroke-colour="FFFFFF" 
+		     data-stroke-spacing="4"> 
+		</div>
+		<h3>Credit Card</h3>
+	</ion-col>
+  </ion-row>
+</ion-grid>
+</ion-content>
