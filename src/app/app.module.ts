@@ -8,13 +8,15 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { LevelsPage } from '../pages/levels/levels';
 import { ListPage } from '../pages/list/list';
+import { NudgePage } from '../pages/nudge/nudge';
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
     LevelsPage,
-    ListPage
+    ListPage,
+    NudgePage
   ],
   imports: [
     BrowserModule,
@@ -25,7 +27,8 @@ import { ListPage } from '../pages/list/list';
     MyApp,
     HomePage,
     LevelsPage,
-    ListPage
+    ListPage,
+    NudgePage
   ],
   providers: [
     StatusBar,

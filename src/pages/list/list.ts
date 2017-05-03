@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { NudgePage } from '../nudge/nudge';
+
 
 /**
  * Generated class for the List page.
@@ -24,5 +26,9 @@ export class ListPage {
   ionViewDidLoad() {
     console.log('ionViewDidLoad List');
   }
+
+  enterNudge(val) {
+  		this.navCtrl.push(NudgePage, {nudge:val}); // Upon clicking on a category, navigate to the page for that category
+   }
 
 }
