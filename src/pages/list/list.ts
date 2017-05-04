@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { NudgePage } from '../nudge/nudge';
+import * as BudgetData from '../../assets/data/budget.json';
 
 
 /**
@@ -17,9 +18,12 @@ import { NudgePage } from '../nudge/nudge';
 export class ListPage {
 
   level: any;
+  bData: any;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   	this.level = navParams.get("level");
+  	this.bData = BudgetData;
+  	console.log(this.bData);
   	console.log(this.level);
   }
 
