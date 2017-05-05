@@ -32,13 +32,34 @@ import {
 import {
     NudgePage
 } from '../pages/nudge/nudge';
+import {
+    Authentication
+} from '../pages/authentication/authentication';
+
+
+import {
+    MyApp
+} from './app.component';
+import {
+    HomePage
+} from '../pages/home/home';
+import {
+    LevelsPage
+} from '../pages/levels/levels';
+import {
+    ListPage
+} from '../pages/list/list';
+import {
+    NudgePage
+} from '../pages/nudge/nudge';
 @NgModule({
     declarations: [
     MyApp,
     HomePage,
     LevelsPage,
     ListPage,
-    NudgePage
+    NudgePage,
+    Authentication
   ],
     imports: [
     BrowserModule,
@@ -50,7 +71,8 @@ import {
     HomePage,
     LevelsPage,
     ListPage,
-    NudgePage
+    NudgePage,
+    Authentication
   ],
     providers: [
     StatusBar,
