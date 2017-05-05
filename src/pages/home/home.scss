@@ -1,7 +1,7 @@
 #progress, #progress2, #progress3, #progress4 {
-  padding: 20px;
+  padding: 10px;
   text-align: center;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 h1, h3 {
@@ -14,4 +14,24 @@ h1, h3 {
     font-size: 2rem;
     font-weight: bold;
   }  
+}
+
+.scroll-content {
+	background-color: #f1e8dc;
+}
+
+.logout {
+	text-align: center;
+}
+
+.w3-dropdown-hover {
+	width: 30%;
+	height: 30px;
+}
+
+.profilePic {
+	display: block;
+	width: 40%;
+    margin: auto;
+    margin-bottom: 20px;
 }

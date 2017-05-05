@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import * as BudgetData from '../../assets/data/budget.json';
 
 /**
  * Generated class for the Nudge page.
@@ -14,15 +15,20 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class NudgePage {
 
+  level: any;
   nudge: any;
+  bData: any;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   	this.nudge = navParams.get("nudge");
+  	this.level = navParams.get("level");
+  	this.bData = BudgetData;
   	console.log(this.nudge);
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad Nudge');
+    document.getElementById("nudgeDescript").innerHTML = this.bData[this.level][(this.nudge - 1)].description;
   }
 
 }

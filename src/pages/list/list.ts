@@ -23,19 +23,27 @@ export class ListPage {
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   	this.level = navParams.get("level");
   	this.bData = BudgetData;
-  	console.log(this.bData);
-  	console.log(this.level);
-  	for (var i = 0; i < 10; i++) {
-  		///if (this.bdata[this.level]) {}
-  	}
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad List');
+  	var lev = this.level.toString();;
+  	console.log(this.bData[lev][0].description);
+  	console.log(this.level);
+  	var cardTemp;
+  	for (var i = 0; i < 10; i++) {
+  		if (this.bData[lev][i]) {
+  			cardTemp = "cardHeader" + (i + 1);
+  		 	document.getElementById(cardTemp).innerHTML = this.bData[lev][i].description;
+  		} else {
+  			cardTemp = "wholeCard" +  (i + 1);
+  			document.getElementById(cardTemp).remove();
+  		}
+  	}
   }
 
   enterNudge(val) {
-  		this.navCtrl.push(NudgePage, {nudge:val}); // Upon clicking on a category, navigate to the page for that category
+  		this.navCtrl.push(NudgePage, {level: this.level, nudge:val}); // Upon clicking on a category, navigate to the page for that category
    }
 
 }
