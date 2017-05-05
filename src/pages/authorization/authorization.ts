@@ -6,11 +6,7 @@ import {
     NavController,
     NavParams
 } from 'ionic-angular';
-import {
-    HomePage
-} from '../home/home';
-
-import * as firebase from "firebase";
+import firebase from 'https://www.gstatic.com/firebasejs/3.9.0/firebase.js';
 
 
 // Initialize Firebase
@@ -26,25 +22,26 @@ var config = {
 firebase.initializeApp(config);
 
 /**
- * Generated class for the Authentication page.
+ * Generated class for the Authorization page.
  *
  * See http://ionicframework.com/docs/components/#navigation for more info
  * on Ionic pages and navigation.
  */
 @IonicPage()
 @Component({
-    selector: 'page-authentication',
-    templateUrl: 'authentication.html',
+    selector: 'page-authorization',
+    templateUrl: 'authorization.html',
 })
-export class Authentication {
+
+export class Authorization {
 
     constructor(public navCtrl: NavController, public navParams: NavParams) {}
 
     ionViewDidLoad() {
-        console.log('ionViewDidLoad Authentication');
+        console.log('ionViewDidLoad Authorization');
     }
 
-    login() {
+    loginGoogle() {
         console.log('here')
         var provider = new firebase.auth.GoogleAuthProvider();
 
@@ -55,7 +52,7 @@ export class Authentication {
             // The signed-in user info.
             var user = result.user;
             // ...
-        }).catch((error: any) => {
+        }).catch(function (error) {
             // Handle Errors here.
             var errorCode = error.code;
             var errorMessage = error.message;
@@ -65,7 +62,28 @@ export class Authentication {
             var credential = error.credential;
             // ...
         });
-        this.navCtrl.push(HomePage); // Log in and go to home page
     }
 
-}
+    loginFacebook() {
+        console.log('here')
+
+        var provider = new firebase.auth.FacebookAuthProvider();
+
+        firebase.auth().signInWithPopup(provider).then(function (result) {
+            // This gives you a Facebook Access Token. You can use it to access the Facebook API.
+            var token = result.credential.accessToken;
+            // The signed-in user info.
+            var user = result.user;
+            // ...
+        }).catch(function (error) {
+            // Handle Errors here.
+            var errorCode = error.code;
+            var errorMessage = error.message;
+            // The email of the user's account used.
+            var email = error.email;
+            // The firebase.auth.AuthCredential type that was used.
+            var credential = error.credential;
+            // ...
+        })
+    }
+};
