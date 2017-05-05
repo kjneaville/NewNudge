@@ -25,6 +25,9 @@ export class ListPage {
   	this.bData = BudgetData;
   	console.log(this.bData);
   	console.log(this.level);
+  	for (var i = 0; i < 10; i++) {
+  		///if (this.bdata[this.level]) {}
+  	}
   }
 
   ionViewDidLoad() {
