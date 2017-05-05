@@ -1,12 +1,45 @@
-import firebase from 'https://www.gstatic.com/firebasejs/3.9.0/firebase.js'
+import {
+    Component
+} from '@angular/core';
+import {
+    IonicPage,
+    NavController,
+    NavParams
+} from 'ionic-angular';
+import firebase from 'https://www.gstatic.com/firebasejs/3.9.0/firebase.js';
+
+/**
+ * Generated class for the Authorization page.
+ *
+ * See http://ionicframework.com/docs/components/#navigation for more info
+ * on Ionic pages and navigation.
+ */
+@IonicPage()
+@Component({
+    selector: 'page-authorization',
+    templateUrl: 'authorization.html',
+})
+export class Authorization {
+
+    constructor(public navCtrl: NavController, public navParams: NavParams) {}
+
+    ionViewDidLoad() {
+        console.log('ionViewDidLoad Authorization');
+    }
+
+}
+
 // Initialize Firebase
 // TODO: Replace with your project's customized code snippet
 var config = {
-    apiKey: "<API_KEY>",
-    authDomain: "<PROJECT_ID>.firebaseapp.com",
-    databaseURL: "https://<DATABASE_NAME>.firebaseio.com",
-    storageBucket: "<BUCKET>.appspot.com",
+    apiKey: "AIzaSyC52UryDkafANBqnbabJ4tJM8JF-b3WDgg",
+    authDomain: "nudge-e9af1.firebaseapp.com",
+    databaseURL: "https://nudge-e9af1.firebaseio.com",
+    projectId: "nudge-e9af1",
+    storageBucket: "nudge-e9af1.appspot.com",
+    messagingSenderId: "132555289594"
 };
+
 firebase.initializeApp(config);
 
 var loginGoogle = function () {
