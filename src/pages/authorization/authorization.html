@@ -7,14 +7,14 @@
 <ion-header>
 
     <ion-navbar>
-        <ion-title>authorization</ion-title>
+        <ion-title>Nudge</ion-title>
     </ion-navbar>
 
 </ion-header>
 
 
 <ion-content padding>
-    <div ng-hide="authData" class="card" ng-click="login()">
+    <div ng-hide="authData" class="card" (click)="loginFacebook()">
         <button class="item">
   Log In with Facebook
   </button>
