@@ -35,6 +35,9 @@ import {
 import {
     Authentication
 } from '../pages/authentication/authentication';
+import {
+    Catmodal
+} from '../pages/catmodal/catmodal';
 
 @NgModule({
     declarations: [
@@ -43,7 +46,8 @@ import {
     LevelsPage,
     ListPage,
     NudgePage,
-    Authentication
+    Authentication,
+    Catmodal
   ],
     imports: [
     BrowserModule,
@@ -56,7 +60,8 @@ import {
     LevelsPage,
     ListPage,
     NudgePage,
-    Authentication
+    Authentication,
+    Catmodal
   ],
     providers: [
     StatusBar,

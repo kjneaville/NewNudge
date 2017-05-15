@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import { NavController, ModalController } from 'ionic-angular';
 import { LevelsPage } from '../levels/levels';
 import { Authentication } from '../authentication/authentication';
+import { Catmodal } from '../catmodal/catmodal';
 
 @Component({
   selector: 'page-home',
@@ -13,7 +14,7 @@ export class HomePage {
   chart: any;
   data: any;
 
-  constructor(public navCtrl: NavController) {
+  constructor(public navCtrl: NavController, public modalCtrl: ModalController) {
   	
   }
 
@@ -28,5 +29,10 @@ export class HomePage {
    logout() {
   		this.navCtrl.push(Authentication); // Log in and go to home page
    }
+
+   presentModal() {
+    let modal = this.modalCtrl.create(Catmodal);
+    modal.present();
+  }
 
 }
