@@ -66,6 +66,7 @@ export class Authentication {
             // ...
         });
         this.navCtrl.push(HomePage); // Log in and go to home page
+        location.reload();
     }
 
     loginFacebook() {
@@ -89,6 +90,7 @@ export class Authentication {
             // ...
         });
         this.navCtrl.push(HomePage); // Log in and go to home page
+        location.reload();
     }
 
 }

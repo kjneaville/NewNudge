@@ -3,6 +3,7 @@ import { NavController, ModalController } from 'ionic-angular';
 import { LevelsPage } from '../levels/levels';
 import { Authentication } from '../authentication/authentication';
 import { Catmodal } from '../catmodal/catmodal';
+import * as d3 from 'd3';
 
 @Component({
   selector: 'page-home',
@@ -15,6 +16,7 @@ export class HomePage {
   data: any;
 
   constructor(public navCtrl: NavController, public modalCtrl: ModalController) {
+  		
   }
 
 	ionViewDidLoad() {
