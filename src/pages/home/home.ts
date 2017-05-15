@@ -15,7 +15,6 @@ export class HomePage {
   data: any;
 
   constructor(public navCtrl: NavController, public modalCtrl: ModalController) {
-  	
   }
 
 	ionViewDidLoad() {

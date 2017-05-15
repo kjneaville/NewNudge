@@ -30,7 +30,7 @@ page-nudge {
 }
 
 .top-button {
-	top: 50%;
+	top: 20%;
 	height: 10%;
 }
 
@@ -41,4 +41,16 @@ page-nudge {
 
 .nudgeIcon {
 	margin-top: 25%;
+}
+
+.resourceTitle {
+	width: 100%;
+	position: absolute;
+	top: 40%;
+}
+
+.sponsTitle {
+	width: 100%;
+	position: absolute;
+	top: 70%;
 }
