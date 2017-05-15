@@ -28,7 +28,8 @@ export class NudgePage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad Nudge');
-    document.getElementById("nudgeDescript").innerHTML = this.bData[this.level][(this.nudge - 1)].description;
+    document.getElementsByClassName("nudgeDescript")[0].innerHTML = this.bData[this.level][(this.nudge - 1)].description;
+    document.getElementsByClassName("nudgeDescript")[1].innerHTML = this.bData[this.level][(this.nudge - 1)].description;
   }
 
 }

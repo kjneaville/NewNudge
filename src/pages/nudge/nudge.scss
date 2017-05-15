@@ -2,6 +2,43 @@ page-nudge {
 
 }
 
-.nudgeDesc {
-	margin: 50px;
+.nudgeDescript {
+	margin: 20px;
+	padding-top: 80px;
+}
+
+.nudDesc {
+	margin: 20px;
+}
+
+.slide-zoom {
+    height: 100%;
+}
+
+.left-button {
+	position: absolute;
+	left: 13%;
+	width: 35%;
+	right: 52%;
+}
+
+.right-button {
+	position: absolute;
+	left: 52%;
+	width: 35%;
+	right: 13%;
+}
+
+.top-button {
+	top: 50%;
+	height: 10%;
+}
+
+.bottom-button {
+	top: 65%;
+	height: 10%;
+}
+
+.nudgeIcon {
+	margin-top: 25%;
 }
