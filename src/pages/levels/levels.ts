@@ -12,6 +12,7 @@ export class LevelsPage {
 
   subcat: any;
   uData: any;
+  maxLevel: any;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   	this.subcat = navParams.get("category");
@@ -47,10 +48,12 @@ export class LevelsPage {
 	    			document.getElementById("levCirc4").className += "button circle subGreen";
 	    			document.getElementById("levIcon10").remove();
 	    			document.getElementById("levIcon11").remove();
+	    			this.maxLevel = 5;
 	    		} else {
 	    			document.getElementById("levCirc4").className += "button circle subYellow";
 			    	document.getElementById("levIcon9").remove();
 			    	document.getElementById("levIcon11").remove();
+	    			this.maxLevel = 4;
 	    		}
 	    	} else {
 	    		document.getElementById("levCirc3").className += "button circle subYellow";
@@ -59,6 +62,7 @@ export class LevelsPage {
 		    	document.getElementById("levCirc4").className += "button circle subGrey";
 			    document.getElementById("levIcon9").remove();
 			    document.getElementById("levIcon10").remove();
+	    		this.maxLevel = 3;
 	    	}
 	    } else {
 	    	document.getElementById("levCirc2").className += "button circle subYellow";
@@ -70,6 +74,7 @@ export class LevelsPage {
 		    document.getElementById("levCirc4").className += "button circle subGrey";
 		    document.getElementById("levIcon9").remove();
 		    document.getElementById("levIcon10").remove();
+	    	this.maxLevel = 2;
 	    }
 	} else {
 		document.getElementById("levCirc1").className += "button circle subYellow";
@@ -83,6 +88,7 @@ export class LevelsPage {
 	    document.getElementById("levCirc4").className += "button circle subGrey";
 	    document.getElementById("levIcon9").remove();
 	    document.getElementById("levIcon10").remove();
+		this.maxLevel = 1;
 	}
 	//FOR VALUES
 	var a1 = 0;
@@ -108,7 +114,9 @@ export class LevelsPage {
   }
 
   enterLevel(val) {
-  		this.navCtrl.push(ListPage, {level:val, subcat: this.subcat}); // Upon clicking on a category, navigate to the page for that category
+  		if (val <= this.maxLevel) {
+  			this.navCtrl.push(ListPage, {level:val, subcat: this.subcat}); // Upon clicking on a category, navigate to the page for that category
+  		}
    }
 
 }
