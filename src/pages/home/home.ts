@@ -17,6 +17,7 @@ export class HomePage {
   uData: any;
 
   constructor(public navCtrl: NavController, public modalCtrl: ModalController) {
+  		//PULL array DOWN INTO progress.json
   		this.uData = UserData;
   		console.log(this.uData);
   }

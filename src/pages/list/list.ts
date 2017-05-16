@@ -81,7 +81,7 @@ export class ListPage {
 
 
   enterNudge(val) {
-  		this.navCtrl.push(NudgePage, {level: this.level, nudge:val}); // Upon clicking on a category, navigate to the page for that category
+  		this.navCtrl.push(NudgePage, {subcat: this.subcat, level: this.level, nudge:val}); // Upon clicking on a category, navigate to the page for that category
    }
 
 }
