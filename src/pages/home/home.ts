@@ -3,6 +3,7 @@ import { NavController, ModalController } from 'ionic-angular';
 import { LevelsPage } from '../levels/levels';
 import { Authentication } from '../authentication/authentication';
 import { Catmodal } from '../catmodal/catmodal';
+import * as UserData from '../../assets/data/progress.json';
 import * as d3 from 'd3';
 
 @Component({
@@ -13,10 +14,10 @@ import * as d3 from 'd3';
 export class HomePage {
 
   chart: any;
-  data: any;
+  uData: any;
 
   constructor(public navCtrl: NavController, public modalCtrl: ModalController) {
-  		
+  		this.uData = UserData;
   }
 
 	ionViewDidLoad() {
