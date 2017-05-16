@@ -20,7 +20,14 @@ export class HomePage {
   }
 
 	ionViewDidLoad() {
-
+		var completion = 40; //Calculate Budget completion here
+		var completion2 = 10; //Calculate Savings completion here
+		var completion3 = 70; //Calculate Retirement completion here
+		var completion4 = 80; //Calculate Credit Card completion here
+		document.getElementById("progress").setAttribute("data-percentage", completion.toString());
+		document.getElementById("progress2").setAttribute("data-percentage", completion2.toString());
+		document.getElementById("progress3").setAttribute("data-percentage", completion3.toString());
+		document.getElementById("progress4").setAttribute("data-percentage", completion4.toString());
 	}
 
 	enterCategory(val) {
