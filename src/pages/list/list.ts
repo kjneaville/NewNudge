@@ -31,10 +31,16 @@ export class ListPage {
   	console.log(this.bData[lev][0].description);
   	console.log(this.level);
   	var cardTemp;
+  	var percComp = 30;
+  	document.getElementById("listProgressBar").style.width = (percComp + "%");
+  	document.getElementById("listProgressBar").innerHTML = (percComp + "%");
   	for (var i = 0; i < 10; i++) {
   		if (this.bData[lev][i]) {
   			cardTemp = "cardHeader" + (i + 1);
   		 	document.getElementById(cardTemp).innerHTML = this.bData[lev][i].description;
+  		 	// if (1 == 1) { IF ITEM HAS NOT BEEN COMPLETED
+  		 	// 	document.getElementById("cardCheck" + (i + 1)).remove();
+  		 	// }
   		} else {
   			cardTemp = "wholeCard" +  (i + 1);
   			document.getElementById(cardTemp).remove();
