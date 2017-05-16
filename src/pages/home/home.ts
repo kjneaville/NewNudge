@@ -18,13 +18,30 @@ export class HomePage {
 
   constructor(public navCtrl: NavController, public modalCtrl: ModalController) {
   		this.uData = UserData;
+  		console.log(this.uData);
   }
 
 	ionViewDidLoad() {
-		var completion = 40; //Calculate Budget completion here
-		var completion2 = 10; //Calculate Savings completion here
-		var completion3 = 70; //Calculate Retirement completion here
-		var completion4 = 80; //Calculate Credit Card completion here
+		var a1 = 0;
+		var b1 = 0;
+		var c1 = 0;
+		var d1 = 0;
+		for (var a = 0; a < 16; a++) {
+			if (this.uData[a]) { a1++; }
+		}
+		for (var b = 16; b < 32; b++) {
+			if (this.uData[b]) { b1++; }
+		}
+		for (var c = 32; c < 48; c++) {
+			if (this.uData[c]) { c1++; }
+		}
+		for (var d = 48; d < 64; d++) {
+			if (this.uData[d]) { d1++; }
+		}
+		var completion = Math.round(a1 / 16 * 100); //Calculate Budget completion here
+		var completion2 = Math.round(b1 / 16 * 100); //Calculate Savings completion here
+		var completion3 = Math.round(c1 / 16 * 100); //Calculate Retirement completion here
+		var completion4 = Math.round(d1 / 16 * 100); //Calculate Credit Card completion here
 		document.getElementById("progress").setAttribute("data-percentage", completion.toString());
 		document.getElementById("progress2").setAttribute("data-percentage", completion2.toString());
 		document.getElementById("progress3").setAttribute("data-percentage", completion3.toString());
