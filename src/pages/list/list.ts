@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { NudgePage } from '../nudge/nudge';
 import * as BudgetData from '../../assets/data/budget.json';
+import * as UserData from '../../assets/data/progress.json';
 
 
 /**
@@ -17,36 +18,67 @@ import * as BudgetData from '../../assets/data/budget.json';
 })
 export class ListPage {
 
+  subcat: any;
   level: any;
   bData: any;
+  uData: any;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   	this.level = navParams.get("level");
   	this.bData = BudgetData;
+  	this.uData = UserData;
+  	this.subcat = navParams.get("subcat");
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad List');
-  	var lev = this.level.toString();;
-  	console.log(this.bData[lev][0].description);
-  	console.log(this.level);
+  	var lev = this.level.toString();
   	var cardTemp;
-  	var percComp = 30;
-  	document.getElementById("listProgressBar").style.width = (percComp + "%");
-  	document.getElementById("listProgressBar").innerHTML = (percComp + "%");
+  	console.log(this.bData[lev][0].description);
+
+  	var lm = 0; //LEVEL MODIFIER, IF DIFFERENT SUBCATEGORY NEED TO CHANGE BY FACTOR OF 16
+    if (this.subcat == "Savings") {
+    	lm = 16;
+    }
+    if (this.subcat == "Retirement") {
+    	lm = 32;
+    }
+    if (this.subcat == "Credit") {
+    	lm = 48;
+    }
+    if (lev == "2") {
+    	lm += 4;
+    }
+  	if (lev == "3") {
+    	lm += 8;
+    }
+    if (lev == "4") {
+    	lm += 12;
+    }
+ 	var percCount = 0;
   	for (var i = 0; i < 10; i++) {
   		if (this.bData[lev][i]) {
   			cardTemp = "cardHeader" + (i + 1);
   		 	document.getElementById(cardTemp).innerHTML = this.bData[lev][i].description;
-  		 	// if (1 == 1) { IF ITEM HAS NOT BEEN COMPLETED
-  		 	// 	document.getElementById("cardCheck" + (i + 1)).remove();
-  		 	// }
+  		 	if (!this.uData[lm + i]) {
+  		 	 	document.getElementById("cardCheck" + (i + 1)).remove();
+ 				percCount++;
+  		 	}
   		} else {
   			cardTemp = "wholeCard" +  (i + 1);
   			document.getElementById(cardTemp).remove();
   		}
   	}
+  	var percComp = ((4 - percCount) / 4) * 100;
+  	document.getElementById("levelProg").innerHTML = ("You have completed " + (4 - percCount) + "/4 of the tasks for Level " + this.level);
+  	if (percComp == 0) {
+  		document.getElementById("listProgressBar").className += "w3-container w3-round";		
+  	} else {
+  		document.getElementById("listProgressBar").style.width = (percComp + "%");
+  		document.getElementById("listProgressBar").innerHTML = (percComp + "%");
+  	}
   }
+
+
 
   enterNudge(val) {
   		this.navCtrl.push(NudgePage, {level: this.level, nudge:val}); // Upon clicking on a category, navigate to the page for that category

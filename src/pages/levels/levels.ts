@@ -108,7 +108,7 @@ export class LevelsPage {
   }
 
   enterLevel(val) {
-  		this.navCtrl.push(ListPage, {level:val}); // Upon clicking on a category, navigate to the page for that category
+  		this.navCtrl.push(ListPage, {level:val, subcat: this.subcat}); // Upon clicking on a category, navigate to the page for that category
    }
 
 }

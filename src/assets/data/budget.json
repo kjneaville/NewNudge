@@ -21,6 +21,14 @@
            "resource": "The Motley Fool",
            "link": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx"
 
+       },
+
+       {
+           "title": "Monthly Expenses",
+           "description": "Do you know how much your costs are every month?",
+           "resource": "The Motley Fool",
+           "link": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx"
+
        }
      ],
      "2": [ 
@@ -56,6 +64,38 @@
        }
      ],
      "3": [ 
+       {
+           "title": "Monthly Fixed Costs",
+           "description": "Create a document that contains all of your monthly fixed costs and the cost of each.",
+           "resource": "The Motley Fool",
+           "link": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx"
+       },
+
+       {
+           "title": "Food Budget",
+           "description": "Determine a realistic monthly allowance for food.",
+           "resource": "The Motley Fool",
+           "link": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx"
+
+       },
+
+       {
+           "title": "Fun Money",
+           "description": "Determine how much you are currently spending going out.",
+           "resource": "The Motley Fool",
+           "link": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx"
+
+       },
+
+       {
+           "title": "Other Expenses",
+           "description": "What other expenses do you currently have, such as home or car insurance? Document all of these",
+           "resource": "The Motley Fool",
+           "link": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx"
+
+       }
+     ],
+     "4": [ 
        {
            "title": "Monthly Fixed Costs",
            "description": "Create a document that contains all of your monthly fixed costs and the cost of each.",
