@@ -32,7 +32,8 @@ export class ListPage {
 
   ionViewDidLoad() {
   	var lev = this.level.toString();
-  	var cardTemp;
+  	var cardTemp1;
+  	var cardTemp2;
   	console.log(this.bData[lev][0].description);
 
   	var lm = 0; //LEVEL MODIFIER, IF DIFFERENT SUBCATEGORY NEED TO CHANGE BY FACTOR OF 16
@@ -57,15 +58,17 @@ export class ListPage {
  	var percCount = 0;
   	for (var i = 0; i < 10; i++) {
   		if (this.bData[lev][i]) {
-  			cardTemp = "cardHeader" + (i + 1);
-  		 	document.getElementById(cardTemp).innerHTML = this.bData[lev][i].description;
+  			cardTemp1 = "cardHeader" + (i + 1);
+  			cardTemp2 = "cardBody" + (i + 1);
+  		 	document.getElementById(cardTemp1).innerHTML = this.bData[lev][i].description;
+  		 	//document.getElementById(cardTemp2).innerHTML = this.bData[lev][i].body; //BODY OF NUDGE GOES HERE
   		 	if (!this.uData[lm + i]) {
   		 	 	document.getElementById("cardCheck" + (i + 1)).remove();
  				percCount++;
   		 	}
   		} else {
-  			cardTemp = "wholeCard" +  (i + 1);
-  			document.getElementById(cardTemp).remove();
+  			cardTemp1 = "wholeCard" +  (i + 1);
+  			document.getElementById(cardTemp1).remove();
   		}
   	}
   	var percComp = ((4 - percCount) / 4) * 100;
