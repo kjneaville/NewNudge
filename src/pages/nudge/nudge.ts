@@ -34,75 +34,76 @@ export class NudgePage {
   }
 
   ionViewDidLoad() {
+  	/*
     document.getElementsByClassName("nudgeDescript")[0].innerHTML = this.bData[this.level][(this.nudge - 1)].question;
     document.getElementsByClassName("nudgeDescript")[1].innerHTML = this.bData[this.level][(this.nudge - 1)].question;
-    document.getElementsById("nudgeDesc1").innerHTML = this.bData[this.level][(this.nudge - 1)].description1;
-    document.getElementsById("nudgeDesc2").innerHTML = this.bData[this.level][(this.nudge - 1)].description2;
-    document.getElementsById("nudIcon1").src = this.bData[this.level][(this.nudge - 1)].src1;
-    document.getElementsById("nudIcon2").src = this.bData[this.level][(this.nudge - 1)].src2;
+    document.getElementById("nudgeDesc1").innerHTML = this.bData[this.level][(this.nudge - 1)].description1;
+    document.getElementById("nudgeDesc2").innerHTML = this.bData[this.level][(this.nudge - 1)].description2;
+    document.getElementById("nudIcon1").src = this.bData[this.level][(this.nudge - 1)].src1;
+    document.getElementById("nudIcon2").src = this.bData[this.level][(this.nudge - 1)].src2;
     if (this.bData[this.level][(this.nudge - 1)].step1) {
-    	document.getElementsById("nudStep1").innerHTML = this.bData[this.level][(this.nudge - 1)].step1;
+    	document.getElementById("nudStep1").innerHTML = this.bData[this.level][(this.nudge - 1)].step1;
     } else {
-    	document.getElementsById("nudStep1").remove();
+    	document.getElementById("nudStep1").remove();
     }
     if (this.bData[this.level][(this.nudge - 1)].step2) {
-    	document.getElementsById("nudStep2").innerHTML = this.bData[this.level][(this.nudge - 1)].step2;
+    	document.getElementById("nudStep2").innerHTML = this.bData[this.level][(this.nudge - 1)].step2;
     } else {
-    	document.getElementsById("nudStep2").remove();
+    	document.getElementById("nudStep2").remove();
     }
     if (this.bData[this.level][(this.nudge - 1)].step3) {
-    	document.getElementsById("nudStep3").innerHTML = this.bData[this.level][(this.nudge - 1)].step3;
+    	document.getElementById("nudStep3").innerHTML = this.bData[this.level][(this.nudge - 1)].step3;
     } else {
-    	document.getElementsById("nudStep3").remove();
+    	document.getElementById("nudStep3").remove();
     }
     if (this.bData[this.level][(this.nudge - 1)].step4) {
-    	document.getElementsById("nudStep4").innerHTML = this.bData[this.level][(this.nudge - 1)].step4;
+    	document.getElementById("nudStep4").innerHTML = this.bData[this.level][(this.nudge - 1)].step4;
     } else {
-    	document.getElementsById("nudStep4").remove();
+    	document.getElementById("nudStep4").remove();
     }
     if (this.bData[this.level][(this.nudge - 1)].res1) {
-    	document.getElementsById("nudRes1").innerHTML = this.bData[this.level][(this.nudge - 1)].res1;
+    	document.getElementById("nudRes1").innerHTML = this.bData[this.level][(this.nudge - 1)].res1;
     } else {
-    	document.getElementsById("nudRes1").remove();
+    	document.getElementById("nudRes1").remove();
     }
     if (this.bData[this.level][(this.nudge - 1)].res2) {
-    	document.getElementsById("nudRes2").innerHTML = this.bData[this.level][(this.nudge - 1)].res2;
+    	document.getElementById("nudRes2").innerHTML = this.bData[this.level][(this.nudge - 1)].res2;
     } else {
-    	document.getElementsById("nudRes2").remove();
+    	document.getElementById("nudRes2").remove();
     }
     if (this.bData[this.level][(this.nudge - 1)].res3) {
-    	document.getElementsById("nudRes3").innerHTML = this.bData[this.level][(this.nudge - 1)].res3;
+    	document.getElementById("nudRes3").innerHTML = this.bData[this.level][(this.nudge - 1)].res3;
     } else {
-    	document.getElementsById("nudRes3").remove();
+    	document.getElementById("nudRes3").remove();
     }
     if (this.bData[this.level][(this.nudge - 1)].rLink1) {
-    	document.getElementsById("resLink1").href = this.bData[this.level][(this.nudge - 1)].rLink1;
+    	document.getElementById("resLink1").href = this.bData[this.level][(this.nudge - 1)].rLink1;
     }
     if (this.bData[this.level][(this.nudge - 1)].rLink2) {
-    	document.getElementsById("resLink2").href = this.bData[this.level][(this.nudge - 1)].rLink2;
+    	document.getElementById("resLink2").href = this.bData[this.level][(this.nudge - 1)].rLink2;
     }
     if (this.bData[this.level][(this.nudge - 1)].rLink3) {
-    	document.getElementsById("resLink3").href = this.bData[this.level][(this.nudge - 1)].rLink3;
+    	document.getElementById("resLink3").href = this.bData[this.level][(this.nudge - 1)].rLink3;
     }
     if (this.bData[this.level][(this.nudge - 1)].sponName) {
-    	document.getElementsById("nudSpon1").innerHTML = this.bData[this.level][(this.nudge - 1)].sponName;
+    	document.getElementById("nudSpon1").innerHTML = this.bData[this.level][(this.nudge - 1)].sponName;
     } else {
-    	document.getElementsById("nudSpon1").remove();
+    	document.getElementById("nudSpon1").remove();
     }
     if (this.bData[this.level][(this.nudge - 1)].sponLink) {
-    	document.getElementsById("sponLink1").href = this.bData[this.level][(this.nudge - 1)]sponLink;
-    }
+    	document.getElementById("sponLink1").href = this.bData[this.level][(this.nudge - 1)]sponLink;
+    }*/
   }
 
   complete() {
   	var subNum = 0;
-  	if (this.subcat == "Savings") {
+  	if (this.subcat == "Investing") {
   		subNum = 16;
   	}
-  	if (this.subcat == "Retirment") {
+  	if (this.subcat == "Retirement") {
   		subNum = 32;
   	}
-  	if (this.subcat == "Credit") {
+  	if (this.subcat == "Taxes") {
   		subNum = 48;
   	}
     this.uData[subNum + (this.nudge  - 1) + ((this.level - 1) * 4)] = true;

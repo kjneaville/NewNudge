@@ -24,13 +24,13 @@ export class LevelsPage {
     console.log('ionViewDidLoad Levels');
     //FOR ICONS AND COLORS
     var lm = 0; //LEVEL MODIFIER, IF DIFFERENT SUBCATEGORY NEED TO CHANGE BY FACTOR OF 16
-    if (this.subcat == "Savings") {
+    if (this.subcat == "Investing") {
     	lm = 16;
     }
     if (this.subcat == "Retirement") {
     	lm = 32;
     }
-    if (this.subcat == "Credit") {
+    if (this.subcat == "Taxes") {
     	lm = 48;
     }
     if (this.uData[lm + 0] && this.uData[lm + 1] && this.uData[lm + 2] && this.uData[lm + 3]) { //IF COMPLETE LEVEL 1

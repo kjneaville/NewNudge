@@ -37,13 +37,13 @@ export class ListPage {
   	console.log(this.bData[lev][0].description);
 
   	var lm = 0; //LEVEL MODIFIER, IF DIFFERENT SUBCATEGORY NEED TO CHANGE BY FACTOR OF 16
-    if (this.subcat == "Savings") {
+    if (this.subcat == "Investing") {
     	lm = 16;
     }
     if (this.subcat == "Retirement") {
     	lm = 32;
     }
-    if (this.subcat == "Credit") {
+    if (this.subcat == "Taxes") {
     	lm = 48;
     }
     if (lev == "2") {
