@@ -11,6 +11,7 @@ import {
 } from '../home/home';
 
 import * as firebase from "firebase";
+// import {Deploy} from '@ionic/cloud-angular';
 
 
 // Initialize Firebase
@@ -39,7 +40,7 @@ firebase.initializeApp(config);
 })
 export class Authentication {
 
-    constructor(public navCtrl: NavController, public navParams: NavParams) {}
+    constructor(public navCtrl: NavController, public navParams: NavParams/*, public deploy: Deploy*/) {}
 
     ionViewDidLoad() {
         console.log('ionViewDidLoad Authentication');

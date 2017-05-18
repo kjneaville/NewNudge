@@ -5,6 +5,7 @@ import * as InvestData from '../../assets/data/invest.json';
 import * as RetireData from '../../assets/data/retire.json';
 import * as TaxData from '../../assets/data/tax.json';
 import * as UserData from '../../assets/data/progress.json';
+//import {Deploy} from '@ionic/cloud-angular';
 
 /**
  * Generated class for the Nudge page.
@@ -29,28 +30,28 @@ export class NudgePage {
   tData: any;
   uData: any;
 
-  constructor(public navCtrl: NavController, public navParams: NavParams, public viewCtrl: ViewController) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, public viewCtrl: ViewController/*, public deploy: Deploy*/) {
   	this.nudge = navParams.get("nudge");
   	this.level = navParams.get("level");
   	this.subcat = navParams.get("subcat");
   	this.bData = BudgetData;
   	this.uData = UserData;
-  	console.log(this.nudge);
   	console.log(this.level);
   	console.log(this.subcat);
+  	var lm = 0; //LEVEL MODIFIER, IF DIFFERENT SUBCATEGORY NEED TO CHANGE BY FACTOR OF 16
   	if (this.subcat == "Investing") {
     	lm = 16;
-    	aData = iData;
+    	this.aData = this.iData;
     }
     else if (this.subcat == "Retirement") {
     	lm = 32;
-    	aData = rData;
+    	this.aData = this.rData;
     }
     else if (this.subcat == "Taxes") {
     	lm = 48;
-    	aData = tData;
+    	this.aData = this.tData;
     } else {
-    	aData = bData;
+    	this.aData = this.bData;
     }
   }
 

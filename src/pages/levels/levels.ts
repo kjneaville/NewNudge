@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { ListPage } from '../list/list';
 import * as UserData from '../../assets/data/progress.json';
+//import {Deploy} from '@ionic/cloud-angular';
 
 @IonicPage()
 @Component({
@@ -14,7 +15,7 @@ export class LevelsPage {
   uData: any;
   maxLevel: any;
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public navCtrl: NavController, public navParams: NavParams/*, public deploy: Deploy*/) {
   	this.subcat = navParams.get("category");
   	this.uData = UserData;
   	console.log(this.subcat);
