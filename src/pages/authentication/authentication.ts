@@ -14,7 +14,6 @@ import * as firebase from "firebase";
 import {Deploy} from '@ionic/cloud-angular';
 
 
-
 // Initialize Firebase
 var config = {
     apiKey: "AIzaSyC52UryDkafANBqnbabJ4tJM8JF-b3WDgg",

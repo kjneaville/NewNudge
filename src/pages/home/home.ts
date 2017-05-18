@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
+import { Deploy } from '@ionic/cloud-angular';
+
 import { NavController, ModalController } from 'ionic-angular';
 import { LevelsPage } from '../levels/levels';
 import { Authentication } from '../authentication/authentication';
 import { Catmodal } from '../catmodal/catmodal';
 import * as UserData from '../../assets/data/progress.json';
 import * as d3 from 'd3';
-import {Deploy} from '@ionic/cloud-angular';
 
 
 @Component({
@@ -18,7 +19,7 @@ export class HomePage {
   chart: any;
   uData: any;
 
-  constructor(public navCtrl: NavController, public modalCtrl: ModalController, public deploy: Deploy) {
+  constructor(public deploy: Deploy, public navCtrl: NavController, public modalCtrl: ModalController) {
   		//PULL array DOWN INTO progress.json
   		this.uData = UserData;
   		console.log(this.uData);
