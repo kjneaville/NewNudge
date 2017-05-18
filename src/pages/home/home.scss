@@ -1,7 +1,7 @@
 #progress, #progress2, #progress3, #progress4 {
   padding: 10px;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 5px;
 }
 
 h1, h3 {
@@ -16,6 +16,12 @@ h1, h3 {
   }  
 }
 
+.homeHead {
+	padding: 0px;
+	margin: 0px;
+	margin-top: -10px;
+}
+
 .scroll-content {
 	background-color: #f1e8dc;
 }
@@ -26,6 +32,7 @@ h1, h3 {
 	margin-top: 0px;
 	top: 5px;
 	right: 5px;
+	height: 40px;
 }
 
 .w3-dropdown-hover {
@@ -35,8 +42,8 @@ h1, h3 {
 
 .profilePic {
 	display: block;
-	width: 160px;
-	height: 160px;
+	width: 80px;
+	height: 80px;
     margin: auto;
     margin-bottom: 20px;
 }

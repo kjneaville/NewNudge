@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams, ViewController } from 'ionic-angular';
+import {Deploy} from '@ionic/cloud-angular';
+
 
 /**
  * Generated class for the Catmodal page.
@@ -15,7 +17,7 @@ import { IonicPage, NavController, NavParams, ViewController } from 'ionic-angul
 export class Catmodal {
 
 
-  constructor(public navCtrl: NavController, public navParams: NavParams, public viewCtrl: ViewController) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, public viewCtrl: ViewController, public deploy: Deploy) {
   }
 
   ionViewDidLoad() {

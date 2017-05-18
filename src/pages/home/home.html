@@ -4,14 +4,14 @@
       Home
     </ion-title>
 <div class="logout">
-        <button (click)="logout()" right ion-button>Logout</button>
+        <button (click)="logout()" right ion-button small>Logout</button>
 </div>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
 
-<img class="profilePic" src="../../assets/img/profile.png">
+<img class="profilePic" src="assets/img/profile.png">
 
 <div align="center" class=" w3-container">
   <!-- <div class="w3-dropdown-hover"> -->
@@ -28,14 +28,14 @@
     <ion-col col-6 (click)="enterCategory('Budget')">
 		<div id="progress" 
 		     data-percentage="0" 
-		     data-track-width="30" 
+		     data-track-width="20" 
 		     data-track-colour="555555" 
 		     data-fill-colour="00C0FF" 
 		     data-text-colour="00C0FF" 
 		     data-stroke-colour="FFFFFF" 
 		     data-stroke-spacing="4"> 
 		</div>
-		<h3>Budget</h3>
+		<h3 class="homeHead">Budget</h3>
 	</ion-col>
     <ion-col col-6 (click)="enterCategory('Investing')">
 		<div id="progress2" 
@@ -47,9 +47,10 @@
 		     data-stroke-colour="FFFFFF" 
 		     data-stroke-spacing="4"> 
 		</div>
-		<h3>Investing</h3>
+		<h3 class="homeHead">Investing</h3>
 	</ion-col>
   </ion-row>
+  <br>
   <ion-row>
     <ion-col col-6 (click)="enterCategory('Retirement')">
 		<div id="progress3" 
@@ -61,7 +62,7 @@
 		     data-stroke-colour="FFFFFF" 
 		     data-stroke-spacing="4"> 
 		</div>
-		<h3>Retirement Goals</h3>
+		<h3 class="homeHead">Retirement</h3>
 	</ion-col>
     <ion-col col-6 (click)="enterCategory('Taxes')">
 		<div id="progress4" 
@@ -73,7 +74,7 @@
 		     data-stroke-colour="FFFFFF" 
 		     data-stroke-spacing="4"> 
 		</div>
-		<h3>Taxes</h3>
+		<h3 class="homeHead">Taxes</h3>
 	</ion-col>
   </ion-row>
 </ion-grid>

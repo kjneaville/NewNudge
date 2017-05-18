@@ -3,13 +3,16 @@ page-nudge {
 }
 
 .nudgeDescript {
-	margin: 20px;
-	padding-top: 80px;
+	margin: 10px;
+	padding-top: 20px;
 }
 
-.nudDesc {
-	margin: 20px;
-}
+#nudDesc1, #nudDesc2, ol {
+	margin: 0px;
+	margin-top: 15px;
+	font-size: 14px;
+}	
+ 
 
 .slide-zoom {
     height: 100%;
@@ -17,20 +20,20 @@ page-nudge {
 
 .left-button {
 	position: absolute;
-	left: 13%;
-	width: 35%;
+	left: 5%;
+	width: 43%;
 	right: 52%;
 }
 
 .right-button {
 	position: absolute;
 	left: 52%;
-	width: 35%;
-	right: 13%;
+	width: 43%;
+	right: 5%;
 }
 
 .top-button {
-	top: 20%;
+	top: 17%;
 	height: 10%;
 }
 
@@ -40,17 +43,17 @@ page-nudge {
 }
 
 .nudgeIcon {
-	margin-top: 25%;
+	margin-top: 50%;
 }
 
 .resourceTitle {
 	width: 100%;
 	position: absolute;
-	top: 40%;
+	top: 35%;
 }
 
 .sponsTitle {
 	width: 100%;
 	position: absolute;
-	top: 70%;
+	top: 64%;
 }

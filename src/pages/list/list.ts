@@ -2,7 +2,11 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { NudgePage } from '../nudge/nudge';
 import * as BudgetData from '../../assets/data/budget.json';
+import * as InvestData from '../../assets/data/invest.json';
+import * as RetireData from '../../assets/data/retire.json';
+import * as TaxData from '../../assets/data/tax.json';
 import * as UserData from '../../assets/data/progress.json';
+import {Deploy} from '@ionic/cloud-angular';
 
 
 /**
@@ -21,30 +25,39 @@ export class ListPage {
   subcat: any;
   level: any;
   bData: any;
+  iData: any;
+  rData: any;
+  tData: any;
   uData: any;
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, public deploy: Deploy) {
+  	this.subcat = navParams.get("subcat");
   	this.level = navParams.get("level");
   	this.bData = BudgetData;
+  	this.iData = InvestData;
+  	this.rData = RetireData;
+  	this.tData = TaxData;
   	this.uData = UserData;
-  	this.subcat = navParams.get("subcat");
   }
 
   ionViewDidLoad() {
+  	var aData = this.bData;
   	var lev = this.level.toString();
   	var cardTemp1;
   	var cardTemp2;
   	console.log(this.bData[lev][0].description);
-
   	var lm = 0; //LEVEL MODIFIER, IF DIFFERENT SUBCATEGORY NEED TO CHANGE BY FACTOR OF 16
     if (this.subcat == "Investing") {
     	lm = 16;
+    	aData = this.iData;
     }
     if (this.subcat == "Retirement") {
     	lm = 32;
+    	aData = this.rData;
     }
     if (this.subcat == "Taxes") {
     	lm = 48;
+    	aData = this.tData;
     }
     if (lev == "2") {
     	lm += 4;
@@ -57,11 +70,11 @@ export class ListPage {
     }
  	var percCount = 0;
   	for (var i = 0; i < 10; i++) {
-  		if (this.bData[lev][i]) {
+  		if (aData[lev][i]) {
   			cardTemp1 = "cardHeader" + (i + 1);
   			cardTemp2 = "cardBody" + (i + 1);
-  		 	document.getElementById(cardTemp1).innerHTML = this.bData[lev][i].description;
-  		 	//document.getElementById(cardTemp2).innerHTML = this.bData[lev][i].body; //BODY OF NUDGE GOES HERE
+  		 	document.getElementById(cardTemp1).innerHTML = aData[lev][i].description;
+  		 	//document.getElementById(cardTemp2).innerHTML = this.aData[lev][i].body; //BODY OF NUDGE GOES HERE
   		 	if (!this.uData[lm + i]) {
   		 	 	document.getElementById("cardCheck" + (i + 1)).remove();
  				percCount++;
@@ -88,3 +101,4 @@ export class ListPage {
    }
 
 }
+

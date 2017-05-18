@@ -3,8 +3,8 @@ page-levels {
 }
 
 .circle {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     position: relative;
     border-radius: 300%;
     display: block;
@@ -30,8 +30,8 @@ page-levels {
     left: 50%;
     height: 50%;
     transform: translate(-50%, -50%);*/
-    transform: scale(4, 4);
-    width: 10px;
+    transform: scale(3, 3);
+    width: 12px;
     height: 20px;
     display: block;
     margin: auto;
@@ -42,7 +42,7 @@ page-levels {
     position: absolute;
     z-index: -1;
     top: 0;
-    bottom: -200px;
+    bottom: -300px;
     left: 50%;
     border-left: 3px dotted #444; /*change these values to suit your liking*/
 }

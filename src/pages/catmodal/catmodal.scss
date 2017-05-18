@@ -2,13 +2,13 @@ page-catmodal {
 	ion-card {
     position: relative;
     text-align: center;
-    height: 200px;
+    height: 120px;
   }
 
   .card-title {
     position: absolute;
     top: 36%;
-    font-size: 4.0em;
+    font-size: 3.0em;
     width: 100%;
     font-weight: bold;
     color: #fff;
@@ -27,5 +27,5 @@ page-catmodal {
 
 .modal-wrapper {
   height: 90%;
-  top: 10%;
+  top: 0%;
 }
