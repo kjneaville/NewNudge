@@ -5,6 +5,7 @@ import { NavController, ModalController } from 'ionic-angular';
 import { LevelsPage } from '../levels/levels';
 import { Authentication } from '../authentication/authentication';
 import { Catmodal } from '../catmodal/catmodal';
+import { ActionSheetController } from 'ionic-angular';
 import * as UserData from '../../assets/data/progress.json';
 import * as d3 from 'd3';
 
@@ -19,7 +20,7 @@ export class HomePage {
   chart: any;
   uData: any;
 
-  constructor(public deploy: Deploy, public navCtrl: NavController, public modalCtrl: ModalController) {
+  constructor(public deploy: Deploy, public navCtrl: NavController, public modalCtrl: ModalController, public actionSheetCtrl: ActionSheetController) {
   		//PULL array DOWN INTO progress.json
   		this.uData = UserData;
   		console.log(this.uData);
@@ -57,12 +58,38 @@ export class HomePage {
    }
 
    logout() {
-  		this.navCtrl.push(Authentication); // Log in and go to home page
+  		this.navCtrl.setRoot(Authentication); // Log in and go to home page
    }
 
    presentModal() {
     let modal = this.modalCtrl.create(Catmodal);
     modal.present();
+  }
+
+  presentActionSheet() {
+    let actionSheet = this.actionSheetCtrl.create({
+      title: 'Change your Profile Picture',
+      buttons: [
+        {
+          text: 'Use Camera',
+          handler: () => {
+            console.log('Camera clicked');
+          }
+        },{
+          text: 'Import from Photos',
+          handler: () => {
+            console.log('Import clicked');
+          }
+        },{
+          text: 'Cancel',
+          role: 'cancel',
+          handler: () => {
+            console.log('Cancel clicked');
+          }
+        }
+      ]
+    });
+    actionSheet.present();
   }
 
 }
