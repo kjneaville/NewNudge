@@ -4,7 +4,7 @@ import * as BudgetData from '../../assets/data/budget.json';
 import * as InvestData from '../../assets/data/invest.json';
 import * as RetireData from '../../assets/data/retire.json';
 import * as TaxData from '../../assets/data/tax.json';
-import * as UserData from '../../assets/data/progress.json';
+import { LevelsPage } from '../levels/levels';
 import {Deploy} from '@ionic/cloud-angular';
 
 /**
@@ -35,7 +35,7 @@ export class NudgePage {
   	this.level = navParams.get("level");
   	this.subcat = navParams.get("subcat");
   	this.bData = BudgetData;
-  	this.uData = UserData;
+  	this.uData = navParams.get("udat");
   	console.log(this.level);
   	console.log(this.subcat);
   	var lm = 0; //LEVEL MODIFIER, IF DIFFERENT SUBCATEGORY NEED TO CHANGE BY FACTOR OF 16
@@ -132,11 +132,12 @@ export class NudgePage {
     this.uData[subNum + (this.nudge  - 1) + ((this.level - 1) * 4)] = true;
     //SAVE this.uData TO FIREBASE, overwriting old array
     //REPULL array DOWN INTO progress.json
-    this.viewCtrl.dismiss();
+    this.navCtrl.push(LevelsPage, {category: this.subcat, udat: this.uData});
+    this.navCtrl.remove(this.navCtrl.length() - 1);
   }
 
   dismiss() {
-    this.viewCtrl.dismiss();
+    this.navCtrl.pop();
   }
 
 }

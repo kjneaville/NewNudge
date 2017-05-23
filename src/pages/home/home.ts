@@ -1,13 +1,13 @@
 import { Component } from '@angular/core';
 import { Deploy } from '@ionic/cloud-angular';
 
-import { NavController, ModalController } from 'ionic-angular';
+import { NavController, ModalController, NavParams } from 'ionic-angular';
 import { LevelsPage } from '../levels/levels';
 import { Authentication } from '../authentication/authentication';
 import { Catmodal } from '../catmodal/catmodal';
 import { ActionSheetController } from 'ionic-angular';
-import * as UserData from '../../assets/data/progress.json';
 import * as d3 from 'd3';
+import * as UserData from '../../assets/data/progress.json';
 
 
 @Component({
@@ -20,10 +20,15 @@ export class HomePage {
   chart: any;
   uData: any;
 
-  constructor(public deploy: Deploy, public navCtrl: NavController, public modalCtrl: ModalController, public actionSheetCtrl: ActionSheetController) {
+  constructor(public deploy: Deploy, public navCtrl: NavController, public navParams: NavParams, public modalCtrl: ModalController, public actionSheetCtrl: ActionSheetController) {
   		//PULL array DOWN INTO progress.json
-  		this.uData = UserData;
-  		console.log(this.uData);
+  		if (navParams.get("udat") != undefined) {
+  			console.log(navParams.get("udat"));
+  				this.uData = navParams.get("udat");
+  		} else {
+  				this.uData = UserData;
+  		}
+
   }
 
 	ionViewDidLoad() {
@@ -54,7 +59,7 @@ export class HomePage {
 	}
 
 	enterCategory(val) {
-  		this.navCtrl.push(LevelsPage, {category:val}); // Upon clicking on a category, navigate to the page for that category
+  		this.navCtrl.push(LevelsPage, {category:val, udat: this.uData}); // Upon clicking on a category, navigate to the page for that category
    }
 
    logout() {

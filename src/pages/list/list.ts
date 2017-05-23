@@ -5,7 +5,6 @@ import * as BudgetData from '../../assets/data/budget.json';
 import * as InvestData from '../../assets/data/invest.json';
 import * as RetireData from '../../assets/data/retire.json';
 import * as TaxData from '../../assets/data/tax.json';
-import * as UserData from '../../assets/data/progress.json';
 import {Deploy} from '@ionic/cloud-angular';
 
 
@@ -37,7 +36,7 @@ export class ListPage {
   	this.iData = InvestData;
   	this.rData = RetireData;
   	this.tData = TaxData;
-  	this.uData = UserData;
+  	this.uData = navParams.get("udat");
   }
 
   ionViewDidLoad() {
@@ -97,7 +96,8 @@ export class ListPage {
 
 
   enterNudge(val) {
-  		this.navCtrl.push(NudgePage, {subcat: this.subcat, level: this.level, nudge:val}); // Upon clicking on a category, navigate to the page for that category
+  		this.navCtrl.push(NudgePage, {subcat: this.subcat, level: this.level, nudge:val, udat: this.uData}); // Upon clicking on a category, navigate to the page for that category
+  		this.navCtrl.remove(this.navCtrl.length() - 1);
    }
 
 }

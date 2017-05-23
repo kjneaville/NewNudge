@@ -12,6 +12,8 @@ import {
 
 import * as firebase from "firebase";
 import {Deploy} from '@ionic/cloud-angular';
+import * as UserData from '../../assets/data/progress.json';
+
 
 
 // Initialize Firebase
@@ -40,7 +42,11 @@ firebase.initializeApp(config);
 })
 export class Authentication {
 
-    constructor(public navCtrl: NavController, public navParams: NavParams, public deploy: Deploy) {}
+    uData: any;
+
+    constructor(public navCtrl: NavController, public navParams: NavParams, public deploy: Deploy) {
+  		this.uData = UserData;
+    }
 
     ionViewDidLoad() {
         console.log('ionViewDidLoad Authentication');
@@ -93,5 +99,10 @@ export class Authentication {
         this.navCtrl.push(HomePage); // Log in and go to home page
         location.reload();
     }
+
+    loginDemo() {
+    	this.navCtrl.push(HomePage, {udat: this.uData}); 
+    }
+
 
 }

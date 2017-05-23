@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { ListPage } from '../list/list';
-import * as UserData from '../../assets/data/progress.json';
 import {Deploy} from '@ionic/cloud-angular';
 
 
@@ -18,8 +17,7 @@ export class LevelsPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams, public deploy: Deploy) {
   	this.subcat = navParams.get("category");
-  	this.uData = UserData;
-  	console.log(this.subcat);
+  	this.uData = navParams.get("udat");
   }
 
   ionViewDidLoad() {
@@ -117,7 +115,8 @@ export class LevelsPage {
 
   enterLevel(val) {
   		if (val <= this.maxLevel) {
-  			this.navCtrl.push(ListPage, {level:val, subcat: this.subcat}); // Upon clicking on a category, navigate to the page for that category
+  			this.navCtrl.push(ListPage, {level:val, subcat: this.subcat, udat: this.uData}); // Upon clicking on a category, navigate to the page for that category
+  			this.navCtrl.remove(this.navCtrl.length() - 1);
   		}
    }
 
