@@ -3,7 +3,9 @@
     <ion-title>
       Home
     </ion-title>
-    <button (click)="logout()" ion-button class="logout" small right>Logout</button>
+    <div>
+    	<button (click)="logout()" ion-button class="logout" small>Logout</button>
+    </div>
   </ion-navbar>
 </ion-header>
 
@@ -11,7 +13,7 @@
 
 <img (click)="presentActionSheet()" class="profilePic" src="assets/img/profile.png">
 
-<div align="center" class=" w3-container">
+<div align="center" class="w3-container">
   <!-- <div class="w3-dropdown-hover"> -->
     <button (click)="presentModal()" ion-button color="dark" round large>Financial</button>
    <!--  <div align="center" class="w3-dropdown-content w3-bar-block w3-card-4">

@@ -19,7 +19,7 @@ h1, h3 {
 .homeHead {
 	padding: 0px;
 	margin: 0px;
-	margin-top: 0px;
+	margin-top: 0px; 
 }
 
 .scroll-content {
@@ -27,11 +27,8 @@ h1, h3 {
 }
 
 .logout {
+	display: inline-block;
 	float: right;
-	position: absolute;
-	margin-top: 10px;
-	padding-top: 0px;
-	top: 0px;
 }
 
 .w3-dropdown-hover {
