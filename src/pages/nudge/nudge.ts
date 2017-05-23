@@ -115,7 +115,7 @@ export class NudgePage {
     if (this.aData[this.level][(this.nudge - 1)].sponsor) {
     	document.getElementById("nudSpon1").innerHTML = this.aData[this.level][(this.nudge - 1)].sponsor;
     	var s1 = this.aData[this.level][(this.nudge - 1)].sponLink;
-	   	var link = document.getElementById("sponLink1"); //WORKS IF SET A DIFFERENT ONE (ONLOAD vs ONCLICK?)
+	   	var link = document.getElementById("sponLink1"); 
 	   	link.setAttribute("href", s1);
 	   	
     } else {
