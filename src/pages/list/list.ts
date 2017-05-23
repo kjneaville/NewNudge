@@ -44,7 +44,6 @@ export class ListPage {
   	var lev = this.level.toString();
   	var cardTemp1;
   	var cardTemp2;
-  	console.log(this.bData[lev][0].description);
   	var lm = 0; //LEVEL MODIFIER, IF DIFFERENT SUBCATEGORY NEED TO CHANGE BY FACTOR OF 16
     if (this.subcat == "Investing") {
     	lm = 16;
@@ -72,8 +71,8 @@ export class ListPage {
   		if (aData[lev][i]) {
   			cardTemp1 = "cardHeader" + (i + 1);
   			cardTemp2 = "cardBody" + (i + 1);
-  		 	document.getElementById(cardTemp1).innerHTML = aData[lev][i].description;
-  		 	//document.getElementById(cardTemp2).innerHTML = this.aData[lev][i].body; //BODY OF NUDGE GOES HERE
+  		 	document.getElementById(cardTemp1).innerHTML = aData[lev][i].title;
+  		 	document.getElementById(cardTemp2).innerHTML = aData[lev][i].question; //BODY OF NUDGE GOES HERE
   		 	if (!this.uData[lm + i]) {
   		 	 	document.getElementById("cardCheck" + (i + 1)).remove();
  				percCount++;

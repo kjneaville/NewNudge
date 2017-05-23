@@ -35,6 +35,9 @@ export class NudgePage {
   	this.level = navParams.get("level");
   	this.subcat = navParams.get("subcat");
   	this.bData = BudgetData;
+  	this.iData = InvestData;
+  	this.rData = RetireData;
+  	this.tData = TaxData;
   	this.uData = navParams.get("udat");
   	console.log(this.level);
   	console.log(this.subcat);
@@ -57,10 +60,10 @@ export class NudgePage {
 
   ionViewDidLoad() {
 
-  	/*
+  	
     document.getElementsByClassName("nudgeDescript")[0].innerHTML = this.aData[this.level][(this.nudge - 1)].question;
     document.getElementsByClassName("nudgeDescript")[1].innerHTML = this.aData[this.level][(this.nudge - 1)].question;
-    document.getElementById("nudgeDesc1").innerHTML = this.aData[this.level][(this.nudge - 1)].description1;
+    /*document.getElementById("nudgeDesc1").innerHTML = this.aData[this.level][(this.nudge - 1)].description1;
     document.getElementById("nudgeDesc2").innerHTML = this.aData[this.level][(this.nudge - 1)].description2;
     document.getElementById("nudIcon1").src = this.aData[this.level][(this.nudge - 1)].src1;
     document.getElementById("nudIcon2").src = this.aData[this.level][(this.nudge - 1)].src2;

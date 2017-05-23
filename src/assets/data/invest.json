@@ -1,1 +1,230 @@
-[5]
+{
+     "1": [ 
+       {
+           "title": "Fun Title of Invest Nudge 1",
+           "question": "Invest Question 1 appears here???",
+           "description1": "A description for description 1 of Invest Nudge 1 will appear here.",
+           "description2": "A description for description 2 of Invest Nudge 1 will appear here.",
+           "step1": "The first step of Nudge 1 will appear here.",
+           "step2": "The second step of Nudge 1 will appear here.",
+           "step3": "The third step of Nudge 1 will appear here.",
+           "resource1": "The Motley Fool",
+           "link1": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
+           "sponsor": "Sponsor of Nudge 1",
+           "sponLink": "https://www.glassdoor.com"
+       },
+
+       {
+           "title": "Fun Title of Invest Nudge 2",
+           "question": "Invest Question 2 appears here???",
+           "description1": "A description for description 1 of Invest Nudge 2 will appear here.",
+           "description2": "A description for description 2 of Invest Nudge 2 will appear here.",
+           "step1": "The first step of Nudge 2 will appear here.",
+           "step2": "The second step of Nudge 2 will appear here.",
+           "step3": "The third step of Nudge 2 will appear here.",
+           "resource1": "The Motley Fool",
+           "link1": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
+           "sponsor": "Sponsor of Nudge 2",
+           "sponLink": "https://www.glassdoor.com"
+       },
+
+       {
+           "title": "Fun Title of Invest Nudge 3",
+           "question": "Invest Question 1 appears here???",
+           "description1": "A description for description 1 of Invest Nudge 3 will appear here.",
+           "description2": "A description for description 2 of Invest Nudge 3 will appear here.",
+           "step1": "The first step of Nudge 3 will appear here.",
+           "step2": "The second step of Nudge 3 will appear here.",
+           "step3": "The third step of Nudge 3 will appear here.",
+           "resource1": "The Motley Fool",
+           "link1": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
+           "sponsor": "Sponsor of Nudge 3",
+           "sponLink": "https://www.glassdoor.com"
+       },
+
+       {
+           "title": "Fun Title of Invest Nudge 4",
+           "question": "Invest Question 4 appears here???",
+           "description1": "A description for description 1 of Invest Nudge 4 will appear here.",
+           "description2": "A description for description 2 of Invest Nudge 4 will appear here.",
+           "step1": "The first step of Nudge 4 will appear here.",
+           "step2": "The second step of Nudge 4 will appear here.",
+           "step3": "The third step of Nudge 4 will appear here.",
+           "resource1": "The Motley Fool",
+           "link1": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
+           "sponsor": "Sponsor of Nudge 4",
+           "sponLink": "https://www.glassdoor.com"
+       }
+     ],
+     "2": [ 
+       {
+		   "title": "Fun Title of Invest Nudge 5",
+           "question": "Invest Question 5 appears here???",
+           "description1": "A description for description 1 of Invest Nudge 5 will appear here.",
+           "description2": "A description for description 2 of Invest Nudge 5 will appear here.",
+           "step1": "The first step of Nudge 5 will appear here.",
+           "step2": "The second step of Nudge 5 will appear here.",
+           "step3": "The third step of Nudge 5 will appear here.",
+           "resource1": "The Motley Fool",
+           "link1": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
+           "sponsor": "Sponsor of Nudge 5",
+           "sponLink": "https://www.glassdoor.com"       
+       },
+
+       {
+           "title": "Fun Title of Invest Nudge 6",
+           "question": "Invest Question 6 appears here???",
+           "description1": "A description for description 1 of Invest Nudge 6 will appear here.",
+           "description2": "A description for description 2 of Invest Nudge 6 will appear here.",
+           "step1": "The first step of Nudge 6 will appear here.",
+           "step2": "The second step of Nudge 6 will appear here.",
+           "step3": "The third step of Nudge 6 will appear here.",
+           "resource1": "The Motley Fool",
+           "link1": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
+           "sponsor": "Sponsor of Nudge 6",
+           "sponLink": "https://www.glassdoor.com"    
+       },
+
+       {
+ 		   "title": "Fun Title of Invest Nudge 7",
+           "question": "Invest Question 7 appears here???",
+           "description1": "A description for description 1 of Invest Nudge 7 will appear here.",
+           "description2": "A description for description 2 of Invest Nudge 7 will appear here.",
+           "step1": "The first step of Nudge 7 will appear here.",
+           "step2": "The second step of Nudge 7 will appear here.",
+           "step3": "The third step of Nudge 7 will appear here.",
+           "resource1": "The Motley Fool",
+           "link1": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
+           "sponsor": "Sponsor of Nudge 7",
+           "sponLink": "https://www.glassdoor.com"    
+       },
+
+       {
+ 		   "title": "Fun Title of Invest Nudge 8",
+           "question": "Invest Question 8 appears here???",
+           "description1": "A description for description 1 of Invest Nudge 8 will appear here.",
+           "description2": "A description for description 2 of Invest Nudge 8 will appear here.",
+           "step1": "The first step of Nudge 8 will appear here.",
+           "step2": "The second step of Nudge 8 will appear here.",
+           "step3": "The third step of Nudge 8 will appear here.",
+           "resource1": "The Motley Fool",
+           "link1": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
+           "sponsor": "Sponsor of Nudge 8",
+           "sponLink": "https://www.glassdoor.com"    
+       }
+     ],
+     "3": [ 
+       {
+ 		   "title": "Fun Title of Invest Nudge 9",
+           "question": "Invest Question 9 appears here???",
+           "description1": "A description for description 1 of Invest Nudge 9 will appear here.",
+           "description2": "A description for description 2 of Invest Nudge 9 will appear here.",
+           "step1": "The first step of Nudge 9 will appear here.",
+           "step2": "The second step of Nudge 9 will appear here.",
+           "step3": "The third step of Nudge 9 will appear here.",
+           "resource1": "The Motley Fool",
+           "link1": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
+           "sponsor": "Sponsor of Nudge 9",
+           "sponLink": "https://www.glassdoor.com"           
+       },
+
+       {
+ 		   "title": "Fun Title of Invest Nudge 10",
+           "question": "Invest Question 10 appears here???",
+           "description1": "A description for description 1 of Invest Nudge 10 will appear here.",
+           "description2": "A description for description 2 of Invest Nudge 10 will appear here.",
+           "step1": "The first step of Nudge 10 will appear here.",
+           "step2": "The second step of Nudge 10 will appear here.",
+           "step3": "The third step of Nudge 10 will appear here.",
+           "resource1": "The Motley Fool",
+           "link1": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
+           "sponsor": "Sponsor of Nudge 10",
+           "sponLink": "https://www.glassdoor.com"           
+       },
+
+       {
+ 		   "title": "Fun Title of Invest Nudge 11",
+           "question": "Invest Question 11 appears here???",
+           "description1": "A description for description 1 of Invest Nudge 11 will appear here.",
+           "description2": "A description for description 2 of Invest Nudge 11 will appear here.",
+           "step1": "The first step of Nudge 11 will appear here.",
+           "step2": "The second step of Nudge 11 will appear here.",
+           "step3": "The third step of Nudge 11 will appear here.",
+           "resource1": "The Motley Fool",
+           "link1": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
+           "sponsor": "Sponsor of Nudge 11",
+           "sponLink": "https://www.glassdoor.com"           
+       },
+
+       {
+ 		   "title": "Fun Title of Invest Nudge 12",
+           "question": "Invest Question 12 appears here???",
+           "description1": "A description for description 1 of Invest Nudge 12 will appear here.",
+           "description2": "A description for description 2 of Invest Nudge 12 will appear here.",
+           "step1": "The first step of Nudge 12 will appear here.",
+           "step2": "The second step of Nudge 12 will appear here.",
+           "step3": "The third step of Nudge 12 will appear here.",
+           "resource1": "The Motley Fool",
+           "link1": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
+           "sponsor": "Sponsor of Nudge 12",
+           "sponLink": "https://www.glassdoor.com"           
+       }
+     ],
+     "4": [ 
+    	{
+ 		   "title": "Fun Title of Invest Nudge 13",
+           "question": "Invest Question 13 appears here???",
+           "description1": "A description for description 1 of Invest Nudge 13 will appear here.",
+           "description2": "A description for description 2 of Invest Nudge 13 will appear here.",
+           "step1": "The first step of Nudge 13 will appear here.",
+           "step2": "The second step of Nudge 13 will appear here.",
+           "step3": "The third step of Nudge 13 will appear here.",
+           "resource1": "The Motley Fool",
+           "link1": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
+           "sponsor": "Sponsor of Nudge 13",
+           "sponLink": "https://www.glassdoor.com"           
+       },
+
+       {
+ 		   "title": "Fun Title of Invest Nudge 14",
+           "question": "Invest Question 14 appears here???",
+           "description1": "A description for description 1 of Invest Nudge 14 will appear here.",
+           "description2": "A description for description 2 of Invest Nudge 14 will appear here.",
+           "step1": "The first step of Nudge 14 will appear here.",
+           "step2": "The second step of Nudge 14 will appear here.",
+           "step3": "The third step of Nudge 14 will appear here.",
+           "resource1": "The Motley Fool",
+           "link1": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
+           "sponsor": "Sponsor of Nudge 14",
+           "sponLink": "https://www.glassdoor.com"           
+       },
+
+       {
+ 		   "title": "Fun Title of Invest Nudge 15",
+           "question": "Invest Question 15 appears here???",
+           "description1": "A description for description 1 of Invest Nudge 15 will appear here.",
+           "description2": "A description for description 2 of Invest Nudge 15 will appear here.",
+           "step1": "The first step of Nudge 15 will appear here.",
+           "step2": "The second step of Nudge 15 will appear here.",
+           "step3": "The third step of Nudge 15 will appear here.",
+           "resource1": "The Motley Fool",
+           "link1": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
+           "sponsor": "Sponsor of Nudge 15",
+           "sponLink": "https://www.glassdoor.com"           
+       },
+
+       {
+ 		   "title": "Fun Title of Invest Nudge 16",
+           "question": "Invest Question 16 appears here???",
+           "description1": "A description for description 1 of Invest Nudge 16 will appear here.",
+           "description2": "A description for description 2 of Invest Nudge 16 will appear here.",
+           "step1": "The first step of Nudge 16 will appear here.",
+           "step2": "The second step of Nudge 16 will appear here.",
+           "step3": "The third step of Nudge 16 will appear here.",
+           "resource1": "The Motley Fool",
+           "link1": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
+           "sponsor": "Sponsor of Nudge 16",
+           "sponLink": "https://www.glassdoor.com"           
+       }
+     ]
+ }
