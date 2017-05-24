@@ -88,36 +88,22 @@ export class NudgePage {
     	document.getElementById("nudStep4").remove();
     }
     if (this.aData[this.level][(this.nudge - 1)].resource1) {
-    	document.getElementById("nudRes1").innerHTML = this.aData[this.level][(this.nudge - 1)].resource1;
-    	var l1 = this.aData[this.level][(this.nudge - 1)].link1;
-	   	var link = document.getElementById("resLink1");
-	   	link.setAttribute("href", l1);
-	   	
+    	document.getElementById("nudRes1").innerHTML = this.aData[this.level][(this.nudge - 1)].resource1;   	
     } else {
     	document.getElementById("nudRes1").parentElement.remove();
     }
     if (this.aData[this.level][(this.nudge - 1)].resource2) {
     	document.getElementById("nudRes2").innerHTML = this.aData[this.level][(this.nudge - 1)].resource2;
-    	var l2 = this.aData[this.level][(this.nudge - 1)].link2;
-	   	var link = document.getElementById("resLink2");
-	   	link.setAttribute("href", l2);
     } else {
     	document.getElementById("nudRes2").parentElement.remove();
     }
     if (this.aData[this.level][(this.nudge - 1)].resource3) {
     	document.getElementById("nudRes3").innerHTML = this.aData[this.level][(this.nudge - 1)].resource3;
-    	var l3 = this.aData[this.level][(this.nudge - 1)].link3;
-	   	var link = document.getElementById("resLink3");
-	   	link.setAttribute("href", l3);
     } else {
     	document.getElementById("nudRes3").parentElement.remove();
     }
     if (this.aData[this.level][(this.nudge - 1)].sponsor) {
-    	document.getElementById("nudSpon1").innerHTML = this.aData[this.level][(this.nudge - 1)].sponsor;
-    	var s1 = this.aData[this.level][(this.nudge - 1)].sponLink;
-	   	var link = document.getElementById("sponLink1"); 
-	   	link.setAttribute("href", s1);
-	   	
+    	document.getElementById("nudSpon1").innerHTML = this.aData[this.level][(this.nudge - 1)].sponsor; 	
     } else {
     	document.getElementById("nudSpon1").parentElement.remove();
     }
@@ -145,4 +131,19 @@ export class NudgePage {
     this.navCtrl.pop();
   }
 
+  goLink(i) {
+  	if (i == 1) {
+  		var l1 = this.aData[this.level][(this.nudge - 1)].link1;
+  		window.open(l1,'_system');
+  	} else if (i == 4) {
+    	var s1 = this.aData[this.level][(this.nudge - 1)].sponLink;
+  		window.open(s1,'_system');
+  	} else if (i == 2) {
+    	var l2 = this.aData[this.level][(this.nudge - 1)].link2;
+  		window.open(l2,'_system');
+  	} else if (i == 3) {
+    	var l3 = this.aData[this.level][(this.nudge - 1)].link3;
+  		window.open(l3,'_system');
+  	}
+  }
 }

@@ -1,51 +1,63 @@
 {
      "1": [ 
        {
-           "title": "Fun Title of Invest Nudge 1",
-           "question": "Invest Question 1 appears here???",
-           "description1": "A description for description 1 of Invest Nudge 1 will appear here.",
-           "description2": "A description for description 2 of Invest Nudge 1 will appear here.",
+           "title": "Investing, Who?",
+           "question": "Have you ever heard of investing? Can you define it?",
+           "description1": "Investing is a great way to make your hard earned money work for you. You provide capital to corporations who use it to drive self-growth, giving you a share of profits.",
+           "description2": "It is also a way to begin earning passive income (money you earn without doing anything).",
            "icon1": "assets/icon/favicon.ico",
            "icon2": "assets/icon/favicon.ico",
-           "step1": "The first step of Nudge 1 will appear here.",
-           "step2": "The second step of Nudge 1 will appear here.",
-           "step3": "The third step of Nudge 1 will appear here.",
-           "resource1": "The Motley Fool",
-           "link1": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
-           "sponsor": "Sponsor of Nudge 1",
-           "sponLink": "https://www.glassdoor.com"
+           "step1": "Think and write about ways you already know how to invest.",
+           "step2": "Use one of our resources or sponsored links to learn more.",
+           "step3": "Fill in the gaps of your knowledge about how and where to invest.",
+           "resource1": "What is Investing?",
+           "link1": "http://www.investopedia.com/university/beginner/beginner1.asp",
+           "resource2": "How to Start Investing",
+           "link2": "http://money.howstuffworks.com/personal-finance/financial-planning/how-to-start-investing.htm",
+           "resource3": "Why does Investing Matter?",
+           "link3": "https://www.valuepenguin.com/investing/what-is-investing",
+           "sponsor": "Investing.com",
+           "sponLink": "https://www.investing.com/"
        },
 
        {
-           "title": "Fun Title of Invest Nudge 2",
-           "question": "Invest Question 2 appears here???",
-           "description1": "A description for description 1 of Invest Nudge 2 will appear here.",
-           "description2": "A description for description 2 of Invest Nudge 2 will appear here.",
+           "title": "Time Keeps On Ticking",
+           "question": "Have you ever heard of compounding interest?",
+           "description1": "Compound interest is interest on interest. This is one way that you will be able to gain extra money from certain investments.",
+           "description2": "The interest can be compounded at different rates, so be sure you know how your accounts are compounded.",
            "icon1": "assets/icon/favicon.ico",
            "icon2": "assets/icon/favicon.ico",
-           "step1": "The first step of Nudge 2 will appear here.",
-           "step2": "The second step of Nudge 2 will appear here.",
-           "step3": "The third step of Nudge 2 will appear here.",
-           "resource1": "The Motley Fool",
-           "link1": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
-           "sponsor": "Sponsor of Nudge 2",
-           "sponLink": "https://www.glassdoor.com"
+           "step1": "Determine the different ways that interest can be compounded.",
+           "step2": "Learn how each is compounded and how they differ.",
+           "step3": "Check any of your current banking and investment accounts and determine how interest is compounded.",
+           "resource1": "Wikipedia: Compound Interest",
+           "link1": "https://en.wikipedia.org/wiki/Compound_interest",
+           "resource2": "Wikipedia: Compound Interest",
+           "link2": "http://www.investopedia.com/university/beginner/beginner2.asp",
+           "resource3": "Compounding Interest Formula Explained",
+           "link3": "http://www.thecalculatorsite.com/articles/finance/compound-interest-formula.php",
+           "sponsor": "Investing.com",
+           "sponLink": "https://www.investing.com/"
        },
 
        {
-           "title": "Fun Title of Invest Nudge 3",
-           "question": "Invest Question 1 appears here???",
-           "description1": "A description for description 1 of Invest Nudge 3 will appear here.",
-           "description2": "A description for description 2 of Invest Nudge 3 will appear here.",
+           "title": "Stock Up",
+           "question": "Do you know what a stock is? Have you ever heard of the stock market?",
+           "description1": "A stock is a type of security that signifies ownership in a corporation and represents a claim on part of the corporation's assets and earnings.",
+           "description2": "The stock market is how stocks get bought and sold. The price of stocks changes over time based on supply and demand.",
            "icon1": "assets/icon/favicon.ico",
            "icon2": "assets/icon/favicon.ico",
-           "step1": "The first step of Nudge 3 will appear here.",
-           "step2": "The second step of Nudge 3 will appear here.",
-           "step3": "The third step of Nudge 3 will appear here.",
-           "resource1": "The Motley Fool",
-           "link1": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
-           "sponsor": "Sponsor of Nudge 3",
-           "sponLink": "https://www.glassdoor.com"
+           "step1": "Give an example of a stock. What was its price a year ago?",
+           "step2": "What are the ways that someone is able to buy stocks?",
+           "step3": "Use an app or website to practice using the stock market without using any of your real money.",
+           "resource1": "What is the Stock Market?",
+           "link1": "http://www.investopedia.com/terms/s/stockmarket.asp",
+           "resource2": "How the Stock Market Works",
+           "link2": "http://www.investopedia.com/articles/investing/082614/how-stock-market-works.asp",
+           "resource3": "Stock Market Simulator",
+           "link3": "http://www.howthemarketworks.com/",
+           "sponsor": "Investing.com",
+           "sponLink": "https://www.investing.com/"
        },
 
        {
@@ -60,8 +72,8 @@
            "step3": "The third step of Nudge 4 will appear here.",
            "resource1": "The Motley Fool",
            "link1": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
-           "sponsor": "Sponsor of Nudge 4",
-           "sponLink": "https://www.glassdoor.com"
+           "sponsor": "Investing.com",
+           "sponLink": "https://www.investing.com/"
        }
      ],
      "2": [ 
@@ -77,8 +89,8 @@
            "step3": "The third step of Nudge 5 will appear here.",
            "resource1": "The Motley Fool",
            "link1": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
-           "sponsor": "Sponsor of Nudge 5",
-           "sponLink": "https://www.glassdoor.com"       
+           "sponsor": "Investing.com",
+           "sponLink": "https://www.investing.com/"       
        },
 
        {
@@ -93,8 +105,8 @@
            "step3": "The third step of Nudge 6 will appear here.",
            "resource1": "The Motley Fool",
            "link1": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
-           "sponsor": "Sponsor of Nudge 6",
-           "sponLink": "https://www.glassdoor.com"    
+           "sponsor": "Investing.com",
+           "sponLink": "https://www.investing.com/"    
        },
 
        {
@@ -109,8 +121,8 @@
            "step3": "The third step of Nudge 7 will appear here.",
            "resource1": "The Motley Fool",
            "link1": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
-           "sponsor": "Sponsor of Nudge 7",
-           "sponLink": "https://www.glassdoor.com"    
+           "sponsor": "Investing.com",
+           "sponLink": "https://www.investing.com/"    
        },
 
        {
@@ -125,8 +137,8 @@
            "step3": "The third step of Nudge 8 will appear here.",
            "resource1": "The Motley Fool",
            "link1": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
-           "sponsor": "Sponsor of Nudge 8",
-           "sponLink": "https://www.glassdoor.com"    
+           "sponsor": "Investing.com",
+           "sponLink": "https://www.investing.com/"    
        }
      ],
      "3": [ 
@@ -142,8 +154,8 @@
            "step3": "The third step of Nudge 9 will appear here.",
            "resource1": "The Motley Fool",
            "link1": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
-           "sponsor": "Sponsor of Nudge 9",
-           "sponLink": "https://www.glassdoor.com"           
+           "sponsor": "Investing.com",
+           "sponLink": "https://www.investing.com/"           
        },
 
        {
@@ -158,8 +170,8 @@
            "step3": "The third step of Nudge 10 will appear here.",
            "resource1": "The Motley Fool",
            "link1": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
-           "sponsor": "Sponsor of Nudge 10",
-           "sponLink": "https://www.glassdoor.com"           
+           "sponsor": "Investing.com",
+           "sponLink": "https://www.investing.com/"           
        },
 
        {
@@ -174,8 +186,8 @@
            "step3": "The third step of Nudge 11 will appear here.",
            "resource1": "The Motley Fool",
            "link1": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
-           "sponsor": "Sponsor of Nudge 11",
-           "sponLink": "https://www.glassdoor.com"           
+           "sponsor": "Investing.com",
+           "sponLink": "https://www.investing.com/"           
        },
 
        {
@@ -190,8 +202,8 @@
            "step3": "The third step of Nudge 12 will appear here.",
            "resource1": "The Motley Fool",
            "link1": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
-           "sponsor": "Sponsor of Nudge 12",
-           "sponLink": "https://www.glassdoor.com"           
+           "sponsor": "Investing.com",
+           "sponLink": "https://www.investing.com/"           
        }
      ],
      "4": [ 
@@ -207,8 +219,8 @@
            "step3": "The third step of Nudge 13 will appear here.",
            "resource1": "The Motley Fool",
            "link1": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
-           "sponsor": "Sponsor of Nudge 13",
-           "sponLink": "https://www.glassdoor.com"           
+           "sponsor": "Investing.com",
+           "sponLink": "https://www.investing.com/"           
        },
 
        {
@@ -223,8 +235,8 @@
            "step3": "The third step of Nudge 14 will appear here.",
            "resource1": "The Motley Fool",
            "link1": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
-           "sponsor": "Sponsor of Nudge 14",
-           "sponLink": "https://www.glassdoor.com"           
+           "sponsor": "Investing.com",
+           "sponLink": "https://www.investing.com/"           
        },
 
        {
@@ -239,8 +251,8 @@
            "step3": "The third step of Nudge 15 will appear here.",
            "resource1": "The Motley Fool",
            "link1": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
-           "sponsor": "Sponsor of Nudge 15",
-           "sponLink": "https://www.glassdoor.com"           
+           "sponsor": "Investing.com",
+           "sponLink": "https://www.investing.com/"           
        },
 
        {
@@ -255,8 +267,8 @@
            "step3": "The third step of Nudge 16 will appear here.",
            "resource1": "The Motley Fool",
            "link1": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
-           "sponsor": "Sponsor of Nudge 16",
-           "sponLink": "https://www.glassdoor.com"           
+           "sponsor": "Investing.com",
+           "sponLink": "https://www.investing.com/"           
        }
      ]
  }
