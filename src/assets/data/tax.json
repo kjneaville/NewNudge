@@ -1,8 +1,8 @@
 {
      "1": [ 
        {
-           "title": "Fun Title of Tax Nudge 1",
-           "question": "Tax Question 1 appears here???",
+           "title": "",
+           "question": "Do you know where your taxes go to?",
            "description1": "A description for description 1 of Tax Nudge 1 will appear here.",
            "description2": "A description for description 2 of Tax Nudge 1 will appear here.",
            "icon1": "assets/icon/favicon.ico",
@@ -12,8 +12,8 @@
            "step3": "The third step of Nudge 1 will appear here.",
            "resource1": "The Motley Fool",
            "link1": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
-           "sponsor": "Sponsor of Nudge 1",
-           "sponLink": "https://www.glassdoor.com"
+		   "sponsor": "TaxSlayer",
+           "sponLink": "https://www.taxslayer.com/"  
        },
 
        {
@@ -28,48 +28,54 @@
            "step3": "The third step of Nudge 2 will appear here.",
            "resource1": "The Motley Fool",
            "link1": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
-           "sponsor": "Sponsor of Nudge 2",
-           "sponLink": "https://www.glassdoor.com"
+		   "sponsor": "TaxSlayer",
+           "sponLink": "https://www.taxslayer.com/"  
        },
 
        {
-           "title": "Fun Title of Tax Nudge 3",
-           "question": "Tax Question 1 appears here???",
-           "description1": "A description for description 1 of Tax Nudge 3 will appear here.",
-           "description2": "A description for description 2 of Tax Nudge 3 will appear here.",
+           "title": "They Cost HOW Much?!",
+           "question": "Do you know where your taxes go to?",
+           "description1": "The federal government collects taxes to finance various public services, such as roads, public education, and government jobs.",
+           "description2": "Information can be easily found for each different state, and here we help you determine generally what you are paying taxes towards.",
            "icon1": "assets/icon/favicon.ico",
            "icon2": "assets/icon/favicon.ico",
-           "step1": "The first step of Nudge 3 will appear here.",
-           "step2": "The second step of Nudge 3 will appear here.",
-           "step3": "The third step of Nudge 3 will appear here.",
-           "resource1": "The Motley Fool",
-           "link1": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
-           "sponsor": "Sponsor of Nudge 3",
-           "sponLink": "https://www.glassdoor.com"
+           "step1": "Find your tax bracket to figure out how much you will be paying.",
+           "step2": "Understand what percentage of taxes go to each public sector.",
+           "step3": "Calculate how much of your taxes go to each public sector.",
+           "resource1": "Where federal tax dollars go",
+           "link1": "http://www.cbpp.org/research/federal-budget/policy-basics-where-do-our-federal-tax-dollars-go",
+           "resource2": "Where taxes go",
+           "link2": "https://www.usatoday.com/story/money/personalfinance/2017/04/11/where-do-your-tax-dollars-actually-go/100116866/",
+           "resource3": "Tax brackets",
+           "link3": "https://taxfoundation.org/2017-tax-brackets/",
+		   "sponsor": "TaxSlayer",
+           "sponLink": "https://www.taxslayer.com/"  
        },
 
        {
-           "title": "Fun Title of Tax Nudge 4",
-           "question": "Tax Question 4 appears here???",
-           "description1": "A description for description 1 of Tax Nudge 4 will appear here.",
-           "description2": "A description for description 2 of Tax Nudge 4 will appear here.",
+           "title": "Tax Season!",
+           "question": "Do you know when your taxes are due each year?",
+           "description1": "Paying your taxes on time is important to avoid additional charges and government involvement.",
+           "description2": "Get them in early! Simply saying you didn't know is not an excuse that will get you off the hook.",
            "icon1": "assets/icon/favicon.ico",
            "icon2": "assets/icon/favicon.ico",
-           "step1": "The first step of Nudge 4 will appear here.",
-           "step2": "The second step of Nudge 4 will appear here.",
-           "step3": "The third step of Nudge 4 will appear here.",
-           "resource1": "The Motley Fool",
-           "link1": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
-           "sponsor": "Sponsor of Nudge 4",
-           "sponLink": "https://www.glassdoor.com"
+           "step1": "April 17th is tax day for 2018!",
+           "step2": "It takes about three weeks to receive your tax refund.",
+           "step3": "Federal income tax may not be the only taxes you are responsible for.",
+           "resource1": "IRS tax calendar",
+           "link1": "https://www.irs.com/articles/2017-federal-tax-calendar",
+           "resource1": "What to pay and when",
+           "link1": "https://turbotax.intuit.com/tax-tools/tax-tips/Small-Business-Taxes/Estimated-Taxes--How-to-Determine-What-to-Pay-and-When/INF12007.html",
+		   "sponsor": "TaxSlayer",
+           "sponLink": "https://www.taxslayer.com/"  
        }
      ],
      "2": [ 
        {
-		   "title": "Fun Title of Tax Nudge 5",
-           "question": "Tax Question 5 appears here???",
-           "description1": "A description for description 1 of Tax Nudge 5 will appear here.",
-           "description2": "A description for description 2 of Tax Nudge 5 will appear here.",
+		   "title": "Number Crunching",
+           "question": "Calculate how much in federal taxes you pay per year.",
+           "description1": "When you know how much you owe, tax season wont take you by surprise.",
+           "description2": "Learn what you owe per year.",
            "icon1": "assets/icon/favicon.ico",
            "icon2": "assets/icon/favicon.ico",
            "step1": "The first step of Nudge 5 will appear here.",
@@ -77,8 +83,8 @@
            "step3": "The third step of Nudge 5 will appear here.",
            "resource1": "The Motley Fool",
            "link1": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
-           "sponsor": "Sponsor of Nudge 5",
-           "sponLink": "https://www.glassdoor.com"       
+		   "sponsor": "TaxSlayer",
+           "sponLink": "https://www.taxslayer.com/"  
        },
 
        {
@@ -93,8 +99,8 @@
            "step3": "The third step of Nudge 6 will appear here.",
            "resource1": "The Motley Fool",
            "link1": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
-           "sponsor": "Sponsor of Nudge 6",
-           "sponLink": "https://www.glassdoor.com"    
+		   "sponsor": "TaxSlayer",
+           "sponLink": "https://www.taxslayer.com/"  
        },
 
        {
@@ -109,8 +115,8 @@
            "step3": "The third step of Nudge 7 will appear here.",
            "resource1": "The Motley Fool",
            "link1": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
-           "sponsor": "Sponsor of Nudge 7",
-           "sponLink": "https://www.glassdoor.com"    
+		   "sponsor": "TaxSlayer",
+           "sponLink": "https://www.taxslayer.com/"  
        },
 
        {
@@ -125,8 +131,8 @@
            "step3": "The third step of Nudge 8 will appear here.",
            "resource1": "The Motley Fool",
            "link1": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
-           "sponsor": "Sponsor of Nudge 8",
-           "sponLink": "https://www.glassdoor.com"    
+		   "sponsor": "TaxSlayer",
+           "sponLink": "https://www.taxslayer.com/"  
        }
      ],
      "3": [ 
@@ -142,121 +148,141 @@
            "step3": "The third step of Nudge 9 will appear here.",
            "resource1": "The Motley Fool",
            "link1": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
-           "sponsor": "Sponsor of Nudge 9",
-           "sponLink": "https://www.glassdoor.com"           
+		   "sponsor": "TaxSlayer",
+           "sponLink": "https://www.taxslayer.com/"  
        },
 
        {
- 		   "title": "Fun Title of Tax Nudge 10",
-           "question": "Tax Question 10 appears here???",
-           "description1": "A description for description 1 of Tax Nudge 10 will appear here.",
-           "description2": "A description for description 2 of Tax Nudge 10 will appear here.",
+ 		   "title": "Those Less Fortunate",
+           "question": "Have you made donations that could be used as write offs for taxes? (i.e. donations of clothes to Goodwill)",
+           "description1": "Not only will donations to organizations (such as Goodwill) reduce waste and help those who cannot afford new items, but many of these donations can also be written off on taxes for their face value.",
+           "description2": "Giving to charity will also make you feel good. “No one has ever become poor by giving.” ― Anne Frank",
            "icon1": "assets/icon/favicon.ico",
            "icon2": "assets/icon/favicon.ico",
-           "step1": "The first step of Nudge 10 will appear here.",
-           "step2": "The second step of Nudge 10 will appear here.",
-           "step3": "The third step of Nudge 10 will appear here.",
-           "resource1": "The Motley Fool",
-           "link1": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
-           "sponsor": "Sponsor of Nudge 10",
-           "sponLink": "https://www.glassdoor.com"           
+           "step1": "Locate a second hand store near you.",
+           "step2": "Collect items in your home and  closet that you no longer use or wear.",
+           "step3": "Take them to the store, making sure you receive the receipt.",
+           "resource1": "Goodwill store locator",
+           "link1": "http://www.goodwill.org/",
+           "resource2": "IRS Guidelines on Donations",
+           "link2": "http://www.amazinggoodwill.com/donating/IRS-guidelines",
+		   "sponsor": "TaxSlayer",
+           "sponLink": "https://www.taxslayer.com/"  
        },
 
        {
- 		   "title": "Fun Title of Tax Nudge 11",
-           "question": "Tax Question 11 appears here???",
-           "description1": "A description for description 1 of Tax Nudge 11 will appear here.",
-           "description2": "A description for description 2 of Tax Nudge 11 will appear here.",
+ 		   "title": "School Ain’t Free",
+           "question": "Are you taking advantage of tax discounts for college students? If graduated, are you making payments to student related expenses?",
+           "description1": "Tax assistance for college students assists because the government knows how important it is to get an education. On the other hand, student loans accrue interest over time, meaning the later you pay them off, the more they will cost you.",
+           "description2": "Even if you declare bankruptcy these student expenses will not disappear. Thing such as student loans or books must be paid off eventually. If you are not able to make your payment to your student loan provider, consider restructuring them so that you are able to pay them off.",
            "icon1": "assets/icon/favicon.ico",
            "icon2": "assets/icon/favicon.ico",
-           "step1": "The first step of Nudge 11 will appear here.",
-           "step2": "The second step of Nudge 11 will appear here.",
-           "step3": "The third step of Nudge 11 will appear here.",
-           "resource1": "The Motley Fool",
-           "link1": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
-           "sponsor": "Sponsor of Nudge 11",
-           "sponLink": "https://www.glassdoor.com"           
+           "step1": "Know the total value of your debt, or estimate if still in school.",
+           "step2": "Find the monthly payment you need to make the debt disappear.",
+           "step3": "Figure out how you can meet that payment with your budget.",
+           "resource1": "Tax Guide for College Students",
+           "link1": "http://www.thesimpledollar.com/tax-guide-for-college-students/",
+           "resource2": "IRS College Student",
+           "link2": "https://www.irs.gov/individuals/students",
+           "resource3": "Tips to repay college loans",
+           "link3": "http://www.bankrate.com/finance/college-finance/repay-college-loans-fast-1.aspx",
+		   "sponsor": "TaxSlayer",
+           "sponLink": "https://www.taxslayer.com/"  
        },
 
        {
- 		   "title": "Fun Title of Tax Nudge 12",
-           "question": "Tax Question 12 appears here???",
-           "description1": "A description for description 1 of Tax Nudge 12 will appear here.",
-           "description2": "A description for description 2 of Tax Nudge 12 will appear here.",
+ 		   "title": "Deductions, Deductions, Deductions",
+           "question": "Determine other deductions in your life that could be used to decrease your taxes.",
+           "description1": "The IRS requires employers to report wage and salary information for employees on Form W-2. Your W-2 also reports the amount of federal, state and other taxes withheld from your paycheck.",
+           "description2": "A W-2 tax form shows the amount of taxes withheld from your paycheck for the year and is used to file your federal and state taxes. As an employee, the information on your W-2 is extremely important when preparing your tax return.",
            "icon1": "assets/icon/favicon.ico",
            "icon2": "assets/icon/favicon.ico",
-           "step1": "The first step of Nudge 12 will appear here.",
-           "step2": "The second step of Nudge 12 will appear here.",
-           "step3": "The third step of Nudge 12 will appear here.",
-           "resource1": "The Motley Fool",
-           "link1": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
-           "sponsor": "Sponsor of Nudge 12",
-           "sponLink": "https://www.glassdoor.com"           
+           "step1": "Determine what deductions you are eligible for under law.",
+           "step2": "Make sure that by tax day, each of your employers has sent you a W-2.",
+           "step3": "When filing taxes, add itemized deductions that you qualify for.",
+           "resource1": "Link to official W2",
+           "link1": "https://www.irs.gov/uac/about-form-w2",
+           "resource2": "500 IRS deductions",
+           "link2": "https://www.irs.gov/taxtopics/tc500.html",
+           "resource3": "Overlooked deductions",
+           "link3": "https://turbotax.intuit.com/tax-tools/tax-tips/Tax-Deductions-and-Credits/The-10-Most-Overlooked-Tax-Deductions/INF12062.html",
+		   "sponsor": "TaxSlayer",
+           "sponLink": "https://www.taxslayer.com/"  
        }
      ],
      "4": [ 
     	{
- 		   "title": "Fun Title of Tax Nudge 13",
-           "question": "Tax Question 13 appears here???",
-           "description1": "A description for description 1 of Tax Nudge 13 will appear here.",
-           "description2": "A description for description 2 of Tax Nudge 13 will appear here.",
+ 		   "title": "The Digital Age",
+           "question": "Purchase and download your choice of tax software.",
+           "description1": "Tax software makes it much easier to file taxes than traditional pen and paper. There are countless online providers out there to help you file your taxes, the largest being TurboTax (which offers a free version).",
+           "description2": "Although you may be reluctant to pay for tax software, often times it will actually save you money by finding deductions that you otherwise would have missed.",
            "icon1": "assets/icon/favicon.ico",
            "icon2": "assets/icon/favicon.ico",
-           "step1": "The first step of Nudge 13 will appear here.",
-           "step2": "The second step of Nudge 13 will appear here.",
-           "step3": "The third step of Nudge 13 will appear here.",
-           "resource1": "The Motley Fool",
-           "link1": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
-           "sponsor": "Sponsor of Nudge 13",
-           "sponLink": "https://www.glassdoor.com"           
+           "step1": "Research tax preparation softwares.",
+           "step2": "Download or favorite your software of choice.",
+           "step3": "Create an account and be reminded to do taxes when necessary.",
+           "resource1": "TurboTax",
+           "link1": "https://turbotax.intuit.com/",
+           "resource2": "Table of tax software",
+           "link2": "https://www.nerdwallet.com/blog/taxes/best-tax-software/",
+		   "sponsor": "TaxSlayer",
+           "sponLink": "https://www.taxslayer.com/"  
        },
 
        {
- 		   "title": "Fun Title of Tax Nudge 14",
-           "question": "Tax Question 14 appears here???",
-           "description1": "A description for description 1 of Tax Nudge 14 will appear here.",
-           "description2": "A description for description 2 of Tax Nudge 14 will appear here.",
+ 		   "title": "What Does W2 Mean To You?",
+           "question": "Ensure that you have received or will be receiving your W2 from your employer",
+           "description1": "The IRS requires employers to report wage and salary information for employees on Form W-2. Your W-2 also reports the amount of federal, state and other taxes withheld from your paycheck.",
+           "description2": "A W-2 tax form shows the amount of taxes withheld from your paycheck for the year and is used to file your federal and state taxes. As an employee, the information on your W-2 is extremely important when preparing your tax return.",
            "icon1": "assets/icon/favicon.ico",
            "icon2": "assets/icon/favicon.ico",
-           "step1": "The first step of Nudge 14 will appear here.",
-           "step2": "The second step of Nudge 14 will appear here.",
-           "step3": "The third step of Nudge 14 will appear here.",
-           "resource1": "The Motley Fool",
-           "link1": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
-           "sponsor": "Sponsor of Nudge 14",
-           "sponLink": "https://www.glassdoor.com"           
+           "step1": "Make sure that by tax day, each of your employers has sent you a W-2.",
+           "step2": "When filing taxes, attach the W-2 and use information from it to assist you.",
+           "step3": "For any further assistance use the official IRS website.",
+           "resource1": "Official W2 Form",
+           "link1": "https://www.irs.gov/uac/about-form-w2",
+           "resource2": "TurboTax: What is a W2?",
+           "link2": "https://turbotax.intuit.com/tax-tools/tax-tips/IRS-Tax-Forms/What-is-a-W-2-Form-/INF14812.html",
+           "resource3": "Understanding tax forms",
+           "link3": "https://www.forbes.com/sites/kellyphillipserb/2014/02/11/understanding-your-tax-forms-the-w-2/#3207915b23ac",
+		   "sponsor": "TaxSlayer",
+           "sponLink": "https://www.taxslayer.com/"  
        },
 
        {
- 		   "title": "Fun Title of Tax Nudge 15",
-           "question": "Tax Question 15 appears here???",
-           "description1": "A description for description 1 of Tax Nudge 15 will appear here.",
-           "description2": "A description for description 2 of Tax Nudge 15 will appear here.",
+ 		   "title": "Where’s The Evidence?!",
+           "question": "Gather all potential deductible information (such as receipts).",
+           "description1": "Taxes require you to accurately report income and spending amounts. Not only is it illegal to “guestimate” the amount for each of these boxes, but if you are audited you could end up paying serious fines.",
+           "description2": "For all money spent or received, you need the paperwork to be able to prove it. This includes investments, income, government benefits, and any other credits.",
            "icon1": "assets/icon/favicon.ico",
            "icon2": "assets/icon/favicon.ico",
-           "step1": "The first step of Nudge 15 will appear here.",
-           "step2": "The second step of Nudge 15 will appear here.",
-           "step3": "The third step of Nudge 15 will appear here.",
-           "resource1": "The Motley Fool",
-           "link1": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
-           "sponsor": "Sponsor of Nudge 15",
-           "sponLink": "https://www.glassdoor.com"           
+           "step1": "Make sure that you have a central location to store receipts.",
+           "step2": "Whenever money goes in or out, make sure to make note of it.",
+           "step3": "When it is tax day, retrieve receipts from central location.",
+           "resource1": "Tax Preparation Checklist",
+           "link1": "https://turbotax.intuit.com/tax-tools/tax-tips/Tax-Planning-and-Checklists/Tax-Preparation-Checklist/INF12048.html",
+           "resource2": "IRS Tax Form Checklist",
+           "link2": "https://www.irs.com/articles/tax-form-checklist",
+		   "sponsor": "TaxSlayer",
+           "sponLink": "https://www.taxslayer.com/"  
        },
 
        {
- 		   "title": "Fun Title of Tax Nudge 16",
-           "question": "Tax Question 16 appears here???",
-           "description1": "A description for description 1 of Tax Nudge 16 will appear here.",
-           "description2": "A description for description 2 of Tax Nudge 16 will appear here.",
+ 		   "title": "Get 'er Done!",
+           "question": "File your taxes and get your return. Success!",
+           "description1": "Now that you have chosen your preferred tax software, it is time to complete your taxes! The day taxes are due varies by year, usually in the middle of April.",
+           "description2": "Don’t save it for the last minute, it may take a few days in case you are missing necessary documentation. Young adults often times will get money refunded to them, so the sooner the better!",
            "icon1": "assets/icon/favicon.ico",
            "icon2": "assets/icon/favicon.ico",
-           "step1": "The first step of Nudge 16 will appear here.",
-           "step2": "The second step of Nudge 16 will appear here.",
-           "step3": "The third step of Nudge 16 will appear here.",
-           "resource1": "The Motley Fool",
-           "link1": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
-           "sponsor": "Sponsor of Nudge 16",
-           "sponLink": "https://www.glassdoor.com"           
+           "step1": "Mark the tax deadline on your calendar.",
+           "step2": "Begin your taxes well before this deadline.",
+           "step3": "Finish them and give yourself a pat on the back!",
+           "resource1": "When can taxes be filed?",
+           "link1": "https://www.thebalance.com/how-soon-can-we-begin-filing-tax-returns-3192837",
+           "resource2": "IRS- Filing your taxes",
+           "link2": "https://www.irs.gov/filing",
+           "sponsor": "TaxSlayer",
+           "sponLink": "https://www.taxslayer.com/" 
        }
      ]
  }
