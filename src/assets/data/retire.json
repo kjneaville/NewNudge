@@ -1,51 +1,63 @@
 {
      "1": [ 
        {
-           "title": "Fun Title of Retire Nudge 1",
-           "question": "Retire Question 1 appears here???",
-           "description1": "A description for description 1 of Retire Nudge 1 will appear here.",
-           "description2": "A description for description 2 of Retire Nudge 1 will appear here.",
+           "title": "Crossing the Finish Line",
+           "question": "Do you know when you would like to retire?",
+           "description1": "Would like to one day stop doing the daily grind and enjoy the perks of retirement? If so you need to start now in order to reap the benefits later.",
+           "description2": "We’ll teach you about how to think about retirement and step yourself up for success.",
            "icon1": "assets/icon/favicon.ico",
            "icon2": "assets/icon/favicon.ico",
-           "step1": "The first step of Nudge 1 will appear here.",
-           "step2": "The second step of Nudge 1 will appear here.",
-           "step3": "The third step of Nudge 1 will appear here.",
-           "resource1": "The Motley Fool",
-           "link1": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
-           "sponsor": "Sponsor of Nudge 1",
-           "sponLink": "https://www.glassdoor.com"
+           "step1": "Consider when you would want to retire. Use our resources.",
+           "step2": "Consider the way you want to live when retired.",
+           "step3": "Write these both down on paper and use them as a goal.",
+           "resource1": "What is retirement?",
+           "link1": "https://www.thebalance.com/what-is-retirement-2388822",
+           "resource2": "Plan for retirement",
+           "link2": "https://www.mint.com/retirement-plan",
+           "resource3": "Guide to retirement",
+           "link3": "https://www.thebalance.com/g00/when-to-retire-a-guide-to-retirement-from-ages-50-70-2389050?i10c.referrer=https%3A%2F%2Fwww.google.com%2F",
+           "sponsor": "Mirabella Retirement Community",
+           "sponLink": "www.retirement.org/mirabellaseattle/"
        },
 
        {
-           "title": "Fun Title of Retire Nudge 2",
-           "question": "Retire Question 2 appears here???",
-           "description1": "A description for description 1 of Retire Nudge 2 will appear here.",
-           "description2": "A description for description 2 of Retire Nudge 2 will appear here.",
+           "title": "Start Your Engines!",
+           "question": "Have you begun saving for your retirement?",
+           "description1": "In order to live independently after you finish working, you need a lot of money saved over the course of your life",
+           "description2": "Because of interest and compound interest, the earlier you start saving the better off you will be when you hang up the cleats for good.",
            "icon1": "assets/icon/favicon.ico",
            "icon2": "assets/icon/favicon.ico",
-           "step1": "The first step of Nudge 2 will appear here.",
-           "step2": "The second step of Nudge 2 will appear here.",
-           "step3": "The third step of Nudge 2 will appear here.",
-           "resource1": "The Motley Fool",
-           "link1": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
-           "sponsor": "Sponsor of Nudge 2",
-           "sponLink": "https://www.glassdoor.com"
+           "step1": "Do you have a savings or investmentaccount specifically for retirement?",
+           "step2": "Make a realistic estimate on how much money you could save each month.",
+           "step3": "Start (or continue) adding this amount to your retirement account every month.",
+           "resource1": "Retirement Calculator",
+           "link1": "http://www.bankrate.com/calculators/retirement/retirement-plan-calculator.aspx",
+           "resource2": "Types of retirement plans",
+           "link2": "https://www.irs.gov/retirement-plans/plan-sponsor/types-of-retirement-plans-1",
+           "resource3": "Retirement Plans",
+           "link3": "http://www.investopedia.com/university/retirementplans/",
+           "sponsor": "Mirabella Retirement Community",
+           "sponLink": "www.retirement.org/mirabellaseattle/"
        },
 
        {
-           "title": "Fun Title of Retire Nudge 3",
-           "question": "Retire Question 1 appears here???",
-           "description1": "A description for description 1 of Retire Nudge 3 will appear here.",
-           "description2": "A description for description 2 of Retire Nudge 3 will appear here.",
+           "title": "Time to Learn More",
+           "question": "Do you know what a 401K account is?",
+           "description1": "There are tax deferred or tax advantaged retirement savings accounts that you can take advantage to save for retirement.",
+           "description2": "Some of these accounts can be offered through your employer or that you can open by yourself. These accounts can be a critical way to save up for retirement.",
            "icon1": "assets/icon/favicon.ico",
            "icon2": "assets/icon/favicon.ico",
-           "step1": "The first step of Nudge 3 will appear here.",
-           "step2": "The second step of Nudge 3 will appear here.",
-           "step3": "The third step of Nudge 3 will appear here.",
-           "resource1": "The Motley Fool",
-           "link1": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
-           "sponsor": "Sponsor of Nudge 3",
-           "sponLink": "https://www.glassdoor.com"
+           "step1": "Find out why a 401K is named as such.",
+           "step2": "Understand the accounts you can open and are eligible for.",
+           "step3": "Determine where you want to open a retirement account.",
+           "resource1": "The Balance",
+           "link1": "https://www.thebalance.com/tax-deferred-savings-account-and-investments-2388988",
+           "resource2": "NerdWallet Best IRA",
+           "link2": "https://www.nerdwallet.com/l/investing/best-ira",
+           "resource3": "401K vs. IRA",
+           "link3": "https://www.betterment.com/resources/retirement/401ks-and-iras/can-you-have-a-401k-and-an-ira/",
+           "sponsor": "Mirabella Retirement Community",
+           "sponLink": "www.retirement.org/mirabellaseattle/"
        },
 
        {
@@ -60,8 +72,12 @@
            "step3": "The third step of Nudge 4 will appear here.",
            "resource1": "The Motley Fool",
            "link1": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
-           "sponsor": "Sponsor of Nudge 4",
-           "sponLink": "https://www.glassdoor.com"
+           "resource2": "The Motley Fool",
+           "link2": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
+           "resource3": "The Motley Fool",
+           "link3": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
+           "sponsor": "Mirabella Retirement Community",
+           "sponLink": "www.retirement.org/mirabellaseattle/"
        }
      ],
      "2": [ 
@@ -77,8 +93,12 @@
            "step3": "The third step of Nudge 5 will appear here.",
            "resource1": "The Motley Fool",
            "link1": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
-           "sponsor": "Sponsor of Nudge 5",
-           "sponLink": "https://www.glassdoor.com"       
+           "resource2": "The Motley Fool",
+           "link2": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
+           "resource3": "The Motley Fool",
+           "link3": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
+           "sponsor": "Mirabella Retirement Community",
+           "sponLink": "www.retirement.org/mirabellaseattle/"       
        },
 
        {
@@ -93,8 +113,12 @@
            "step3": "The third step of Nudge 6 will appear here.",
            "resource1": "The Motley Fool",
            "link1": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
-           "sponsor": "Sponsor of Nudge 6",
-           "sponLink": "https://www.glassdoor.com"    
+           "resource2": "The Motley Fool",
+           "link2": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
+           "resource3": "The Motley Fool",
+           "link3": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
+           "sponsor": "Mirabella Retirement Community",
+           "sponLink": "www.retirement.org/mirabellaseattle/"    
        },
 
        {
@@ -109,8 +133,12 @@
            "step3": "The third step of Nudge 7 will appear here.",
            "resource1": "The Motley Fool",
            "link1": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
-           "sponsor": "Sponsor of Nudge 7",
-           "sponLink": "https://www.glassdoor.com"    
+           "resource2": "The Motley Fool",
+           "link2": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
+           "resource3": "The Motley Fool",
+           "link3": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
+           "sponsor": "Mirabella Retirement Community",
+           "sponLink": "www.retirement.org/mirabellaseattle/"    
        },
 
        {
@@ -125,8 +153,12 @@
            "step3": "The third step of Nudge 8 will appear here.",
            "resource1": "The Motley Fool",
            "link1": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
-           "sponsor": "Sponsor of Nudge 8",
-           "sponLink": "https://www.glassdoor.com"    
+           "resource2": "The Motley Fool",
+           "link2": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
+           "resource3": "The Motley Fool",
+           "link3": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
+           "sponsor": "Mirabella Retirement Community",
+           "sponLink": "www.retirement.org/mirabellaseattle/"    
        }
      ],
      "3": [ 
@@ -142,8 +174,12 @@
            "step3": "The third step of Nudge 9 will appear here.",
            "resource1": "The Motley Fool",
            "link1": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
-           "sponsor": "Sponsor of Nudge 9",
-           "sponLink": "https://www.glassdoor.com"           
+           "resource2": "The Motley Fool",
+           "link2": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
+           "resource3": "The Motley Fool",
+           "link3": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
+           "sponsor": "Mirabella Retirement Community",
+           "sponLink": "www.retirement.org/mirabellaseattle/"           
        },
 
        {
@@ -158,8 +194,12 @@
            "step3": "The third step of Nudge 10 will appear here.",
            "resource1": "The Motley Fool",
            "link1": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
-           "sponsor": "Sponsor of Nudge 10",
-           "sponLink": "https://www.glassdoor.com"           
+           "resource2": "The Motley Fool",
+           "link2": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
+           "resource3": "The Motley Fool",
+           "link3": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
+           "sponsor": "Mirabella Retirement Community",
+           "sponLink": "www.retirement.org/mirabellaseattle/"           
        },
 
        {
@@ -174,8 +214,12 @@
            "step3": "The third step of Nudge 11 will appear here.",
            "resource1": "The Motley Fool",
            "link1": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
-           "sponsor": "Sponsor of Nudge 11",
-           "sponLink": "https://www.glassdoor.com"           
+           "resource2": "The Motley Fool",
+           "link2": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
+           "resource3": "The Motley Fool",
+           "link3": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
+           "sponsor": "Mirabella Retirement Community",
+           "sponLink": "www.retirement.org/mirabellaseattle/"           
        },
 
        {
@@ -190,8 +234,12 @@
            "step3": "The third step of Nudge 12 will appear here.",
            "resource1": "The Motley Fool",
            "link1": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
-           "sponsor": "Sponsor of Nudge 12",
-           "sponLink": "https://www.glassdoor.com"           
+           "resource2": "The Motley Fool",
+           "link2": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
+           "resource3": "The Motley Fool",
+           "link3": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
+           "sponsor": "Mirabella Retirement Community",
+           "sponLink": "www.retirement.org/mirabellaseattle/"           
        }
      ],
      "4": [ 
@@ -207,8 +255,12 @@
            "step3": "The third step of Nudge 13 will appear here.",
            "resource1": "The Motley Fool",
            "link1": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
-           "sponsor": "Sponsor of Nudge 13",
-           "sponLink": "https://www.glassdoor.com"           
+           "resource2": "The Motley Fool",
+           "link2": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
+           "resource3": "The Motley Fool",
+           "link3": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
+           "sponsor": "Mirabella Retirement Community",
+           "sponLink": "www.retirement.org/mirabellaseattle/"           
        },
 
        {
@@ -223,8 +275,12 @@
            "step3": "The third step of Nudge 14 will appear here.",
            "resource1": "The Motley Fool",
            "link1": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
-           "sponsor": "Sponsor of Nudge 14",
-           "sponLink": "https://www.glassdoor.com"           
+           "resource2": "The Motley Fool",
+           "link2": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
+           "resource3": "The Motley Fool",
+           "link3": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
+           "sponsor": "Mirabella Retirement Community",
+           "sponLink": "www.retirement.org/mirabellaseattle/"           
        },
 
        {
@@ -239,8 +295,12 @@
            "step3": "The third step of Nudge 15 will appear here.",
            "resource1": "The Motley Fool",
            "link1": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
-           "sponsor": "Sponsor of Nudge 15",
-           "sponLink": "https://www.glassdoor.com"           
+           "resource2": "The Motley Fool",
+           "link2": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
+           "resource3": "The Motley Fool",
+           "link3": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
+           "sponsor": "Mirabella Retirement Community",
+           "sponLink": "www.retirement.org/mirabellaseattle/"           
        },
 
        {
@@ -255,8 +315,12 @@
            "step3": "The third step of Nudge 16 will appear here.",
            "resource1": "The Motley Fool",
            "link1": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
-           "sponsor": "Sponsor of Nudge 16",
-           "sponLink": "https://www.glassdoor.com"           
+           "resource2": "The Motley Fool",
+           "link2": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
+           "resource3": "The Motley Fool",
+           "link3": "https://www.fool.com/knowledge-center/how-to-calculate-gross-income-per-month.aspx",
+           "sponsor": "Mirabella Retirement Community",
+           "sponLink": "www.retirement.org/mirabellaseattle/"           
        }
      ]
  }
