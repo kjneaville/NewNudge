@@ -103,7 +103,7 @@ export class Authentication {
     }
 
     loginDemo() {
-    	this.navCtrl.push(HomePage, {udat: this.uData}); 
+    	location.reload();
     }
 
     presentNudgeModal() {
