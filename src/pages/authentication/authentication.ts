@@ -4,6 +4,7 @@ import {
 import {
     IonicPage,
     NavController,
+    ModalController,
     NavParams
 } from 'ionic-angular';
 import {
@@ -13,6 +14,7 @@ import {
 import * as firebase from "firebase";
 import {Deploy} from '@ionic/cloud-angular';
 import * as UserData from '../../assets/data/progress.json';
+import { Aboutmodal } from '../aboutmodal/aboutmodal';
 
 
 
@@ -44,7 +46,7 @@ export class Authentication {
 
     uData: any;
 
-    constructor(public navCtrl: NavController, public navParams: NavParams, public deploy: Deploy) {
+    constructor(public navCtrl: NavController, public navParams: NavParams, public modalCtrl: ModalController, public deploy: Deploy) {
   		this.uData = UserData;
     }
 
@@ -102,6 +104,11 @@ export class Authentication {
 
     loginDemo() {
     	this.navCtrl.push(HomePage, {udat: this.uData}); 
+    }
+
+    presentNudgeModal() {
+    	let modal = this.modalCtrl.create(Aboutmodal);
+    	modal.present();
     }
 
 

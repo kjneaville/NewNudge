@@ -38,6 +38,9 @@ import {
 import {
     Catmodal
 } from '../pages/catmodal/catmodal';
+
+import { Aboutmodal } from '../pages/aboutmodal/aboutmodal';
+
 import { CloudSettings, CloudModule } from '@ionic/cloud-angular';
 
 const cloudSettings: CloudSettings = {
@@ -54,7 +57,8 @@ const cloudSettings: CloudSettings = {
     ListPage,
     NudgePage,
     Authentication,
-    Catmodal
+    Catmodal,
+    Aboutmodal
   ],
     imports: [
     BrowserModule,
@@ -69,7 +73,8 @@ const cloudSettings: CloudSettings = {
     ListPage,
     NudgePage,
     Authentication,
-    Catmodal
+    Catmodal,
+    Aboutmodal
   ],
     providers: [
     StatusBar,
