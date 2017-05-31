@@ -33,7 +33,9 @@
            "resource1": "College Student Allowance",
            "link1": "https://www.quora.com/Whats-a-reasonable-allowance-for-a-college-student",
            "resource2": "Spending Money",
-           "link2": "http://www.collegiateparent.com/starting-college/college-spending-money/"
+           "link2": "http://www.collegiateparent.com/starting-college/college-spending-money/",
+           "sponsor": "Budgetpedia",
+           "sponLink": "http://budgetpedia.ca/" 
        },
 
        {
@@ -51,7 +53,9 @@
            "resource2": "Confessions of a Trust Fund Baby",
            "link2": "https://www.learnvest.com/2013/05/confessions-of-a-trust-fund-baby/",
            "resource3": "Other passive incomes",
-           "link3": "http://thecollegeinvestor.com/16399/20-passive-income-ideas/"
+           "link3": "http://thecollegeinvestor.com/16399/20-passive-income-ideas/",
+           "sponsor": "Budgetpedia",
+           "sponLink": "http://budgetpedia.ca/" 
        },
 
        {
@@ -69,7 +73,9 @@
            "resource2": "Gross monthly income calculator",
            "link2": "https://www.freeandclear.com/calculators/monthly-gross-income.html",
            "resource3": "Additional paycheck calculator",
-           "link3": "https://www.paycheckcity.com/calculator/salary/"
+           "link3": "https://www.paycheckcity.com/calculator/salary/",
+           "sponsor": "Budgetpedia",
+           "sponLink": "http://budgetpedia.ca/" 
        }
      ],
      "2": [ 

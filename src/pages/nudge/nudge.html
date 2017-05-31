@@ -19,7 +19,7 @@
 
   <ion-slide>
 
-<h1 class="nudgeDescript">Nudge {{this.nudge}}</h1>
+<h1 class="nudgeDescript">Nudge {{this.nudge}}/4</h1>
 
 <ion-grid>
   <ion-row>
@@ -32,22 +32,27 @@
   </ion-row>
 </ion-grid>
 
-<ol>
-	<li id="nudStep1">Step 1 of how to complete the Nudge here.</li>
-	<li id="nudStep2">Step 2 of how to complete the Nudge here.</li>
-	<li id="nudStep3">Step 3 of how to complete the Nudge here.</li>
-	<li id="nudStep4">Step 4 of how to complete the Nudge here.</li>
-</ol>
-
   </ion-slide>
 
   <ion-slide>
+  	<h4>Steps To Complete</h4>
+  	<br>
+	<img style="width: 40px; height: auto; margin-bottom: 0px; padding-bottom: 0px;" src="assets/icon/1.png">
+		<p id="nudStep1">Step 1 of how to complete the Nudge here.</p>
+	<img style="width: 40px; height: auto; margin-bottom: 0px; padding-bottom: 0px;" src="assets/icon/2.png">
+		<p id="nudStep2">Step 2 of how to complete the Nudge here.</p>
+	<img style="width: 40px; height: auto; margin-bottom: 0px; padding-bottom: 0px;" src="assets/icon/3.png">
+		<p id="nudStep3">Step 3 of how to complete the Nudge here.</p>
+		<p id="nudStep4">Step 4 of how to complete the Nudge here.</p>
+  </ion-slide>
+
+  <ion-slide> 	
     
   	 <h1 class="nudgeDescript">Nudge {{this.nudge}}</h1>
 
-  	 	<button (click)="complete()" class="left-button top-button" ion-button color="secondary">Complete</button>
+  	 	<button (click)="complete()" class="left-button" ion-button><span id="completeText">Complete</span></button>
 
-  	 	<button (click)="dismiss()" class="right-button top-button" ion-button color="danger">Not Yet</button>
+  	 	<button (click)="dismiss()" class="right-button" ion-button><span id="notText">Not Yet</span></button>
 
   <div class="resourceTitle">
   	 <h3>Resources</h3>

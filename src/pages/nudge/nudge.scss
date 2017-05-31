@@ -10,7 +10,7 @@ page-nudge {
 #nudDesc1, #nudDesc2, ol {
 	margin: 0px;
 	margin-top: 15px;
-	font-size: 14px;
+	font-size: 18px;
 }	
  
 
@@ -23,6 +23,8 @@ page-nudge {
 	left: 5%;
 	width: 43%;
 	right: 52%;
+	background-color: #228B22; /*GREEN*/
+	height: 10%;
 }
 
 .right-button {
@@ -30,6 +32,8 @@ page-nudge {
 	left: 52%;
 	width: 43%;
 	right: 5%;
+	background-color: #B22222; /*RED*/
+	height: 10%;
 }
 
 .top-button {
@@ -47,13 +51,34 @@ page-nudge {
 }
 
 .resourceTitle {
-	width: 100%;
 	position: absolute;
-	top: 35%;
+	top: 40%;
+	width: 100%;
 }
 
 .sponsTitle {
 	width: 100%;
 	position: absolute;
-	top: 70%;
+	top: 75%;
+}
+
+#completeText {
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#notText {
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+li {
+	text-align: left;
+}
+
+#nudStep1, #nudStep2, #nudStep3 {
+	margin-top: 0px;
+	padding-top: 0px;
 }
