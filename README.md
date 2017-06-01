@@ -5,6 +5,7 @@ Download 'Ionic View' from App Store or Play Store, use ID #183E1047
 Adulting is hard. The transition to adulthood is more difficult than ever before with more complexity and more responsibility than any other time in history. Nudge is here to help with that transition. Nudge, is an app that strives to make adulting easy and fun. By having different levels of questions and curriculum for core adulting activities. Nudge guides the user on a fun journey to learning and mastering the responsibilities needed to master adulting. 
 
 We used:
+
 Ionic (Hybrid application framework in which you use web programming to create native applications)
 
 Angular 2
