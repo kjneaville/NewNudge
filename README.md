@@ -1,4 +1,4 @@
-# NewNudge
+# Nudge
 
 Download 'Ionic View' from App Store or Play Store, use ID #183E1047
 
