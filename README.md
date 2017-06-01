@@ -6,11 +6,17 @@ Adulting is hard. The transition to adulthood is more difficult than ever before
 
 We used:
 Ionic (Hybrid application framework in which you use web programming to create native applications)
+
 Angular 2
+
 HTML/Sass/Typescript
+
 AngularJS
+
 NodeJS
+
 Firebase
+
 D3
 
 Within our app we have four main categories: Financial, Medical, Household, and Automobile. Within each category, are various subcategories. (i.e. for Financial there is Budget, Investment, Retirement, and Taxes) Within each subcategory, there are four levels to progress through. Within each level there is a list of Nudges to complete. Each Nudge contains a large description on how to "adult", steps to complete the task, and resources to external sites for more information.
